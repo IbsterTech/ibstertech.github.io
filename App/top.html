@@ -1,0 +1,101 @@
+<style>
+.back-to-top {
+    position: fixed;
+    bottom: -40px;
+    right: 0;
+
+    margin-right: 3%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: rgb(0,172,255);
+    background: linear-gradient(90deg, rgba(0,172,255,1) 0%, rgba(10,237,255,1) 0%, rgba(0,172,255,1) 100%);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    transform: scale(0.3);
+    box-shadow: 4px 4px 10px rgba(0, 225, 255, 0.2);
+    z-index: 10000000;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.back-to-top:focus {
+    color: #fff;
+}
+.back-to-top.show {
+    bottom: 40px;
+    right: 0;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: all 0.3s;
+}
+.back-to-top.show:hover {
+    color: #fff;
+    bottom: 30px;
+    opacity: 1;             
+    text-shadow: 2px 2px 2px rgb(148, 216, 236);
+    transition: all 0.6s;
+    border-radius: 3px;
+}
+/* .back-to-top:hover i{
+    bottom: 10px;
+} */
+
+@media only screen and (max-width: 575px) {
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        bottom: 10px !important;
+    }
+    .back-to-top.show {
+        bottom: 10px !important;
+        /* right: 10px; */
+    }
+    .back-to-top.show:hover {
+        bottom: 10px !important;
+    } 
+}
+
+</style>
+<a href="javascript:void(0);" id="backToTop" class="back-to-top"><i class="fa-solid fa-arrow-up fa-beat"></i></a>
+<script>
+var btn = $('#backToTop');
+$(window).on('scroll', function() {
+    if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+    } else {
+        btn.removeClass('show');
+    }
+});
+btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: 0
+    }, '300');
+});
+
+$(document).ready(function(){
+    var btn = $('#backToTop');
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+    });
+    btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0
+        }, '300');
+    });
+});
+</script>
