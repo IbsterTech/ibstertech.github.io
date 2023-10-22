@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <title>How To Install Spotify On Linux - IbsterTech</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="In This Tutorial You Will Learn How To Install Spotify On Most Linux Distros!..." />
+  <meta name="keywords" content="How To Install Spotify On Linux, Spotify, Spotify For Linux, Spotify On Linux, how to install spotify on linux?, how to install spotify on linux">
+  <meta name="author" content="IbsterTech">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="/Js/main-script.js"></script>
+  <script src="/Js/app.js"></script>
+  <link rel="stylesheet" href="/Css/Styles.css">
+  <link rel="stylesheet" href="/Css/App.css">
+</head>
+<body>
+<!-- Essentials -->
+<div class="loader-container"></div>
+<nav id="menu-bar"></nav>
+<!-- End -->
+<header>
+    <h1 class="I-T-R-B">How To Install Spotify On Linux - IbsterTech</h1>
+     <hr>
+     <p class="p-c" id="Top-Note"><b>Note :</b>  Make sure you watch the video below, to install spotify without any problems!</p> 
+     <center>
+<iframe  class="Yt-Video"  width="1260" height="715" src="https://www.youtube.com/embed/D-Xm21kuRk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+
+</header>
+
+
+<header class="Info-Summary">
+<p class="p">
+<center>
+<p class="p" style="padding: 10px;" id="p-heading">
+In This Tutorial You Will Learn How To Install Spotify On Most Linux Distros!... 
+</p>
+</center>
+<br>
+<p class="p" style="padding: 20px; padding-left: 30px;"  id="About-Title">
+<strong>
+About Spotify : 
+</strong>
+</p>
+<br>
+<p class="p" style="padding-left: 40px;" id="About-Section">
+Spotify is a Swedish Audio streaming and media services provider founded on 23 April 2006 by Daniel Ek and Martin Lorentzon. 
+<br> It is the world's largest music streaming service provider, with over 381 million monthly active users, including 172 million paying subscribers, as of September 2021.
+</p>
+</header>
+
+<pre class="Note-Method" style="padding:20px; padding-left: 30px;">
+⭐ Note : As demonstrated in the video above, there are 2 methods, Method 1 Supports More Linux Distros, Whereas Method 2 Supports Linux Distros(Debian/Ubuntu Based)..
+</pre>
+
+<p class="p" style="padding: 35px;" id="Note-Method-Warning">
+    To Install Snap(Snap is only required for Method 1) On Other Linux Distros, Go To The Offical Snap Website Documentation : 
+     <a href="https://snapcraft.io/docs/installing-snapd" class="a-link2" target="_blank">https://snapcraft.io/docs/installing-snapd</a> 
+</p>
+
+<h1 class="C-I-T">Commands(Method 1) : </h1>
+
+<header class="Commands-Line">
+   
+<p id="c1" class="p-c">sudo apt update</p>
+<center>
+<button id="Button" onclick="copyToClipboard('c1')">Copy Code!</button>  
+</center>  
+<hr>
+  <p id="c2" class="p-c">sudo apt install snapd</p>
+  <center>
+    <button id="Button" onclick="copyToClipboard('c2')">Copy Code!</button>  
+    </center>  
+    <hr>
+<p id="c3" class="p-c">sudo snap install core</p>
+<center>
+    <button id="Button" onclick="copyToClipboard('c3')">Copy Code!</button>  
+    </center>      
+<hr>
+    <p id="c4" class="p-c">sudo systemctl restart snapd</p>
+    <center>
+        <button id="Button" onclick="copyToClipboard('c4')">Copy Code!</button>  
+        </center>  
+        <hr>
+        <p id="c5" class="p-c">sudo snap install spotify</p>
+        <center>
+            <button id="Button" onclick="copyToClipboard('c5')">Copy Code!</button>  
+            </center>  
+    </header>
+
+<h1 class="C-I-T">Commands(Method 2) : </h1>
+<header class="Commands-Line">
+   
+<p id="c6" class="p-c">curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add -</p>
+<center>
+<button id="Button" onclick="copyToClipboard('c6')">Copy Code!</button>  
+</center>  
+<hr>
+  <p id="c7" class="p-c">echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list</p>
+  <center>
+    <button id="Button" onclick="copyToClipboard('c7')">Copy Code!</button>  
+    </center>  
+    <hr>
+<p id="c8" class="p-c">sudo apt-get update && sudo apt-get install spotify-client</p>
+<center>
+    <button id="Button" onclick="copyToClipboard('c8')">Copy Code!</button>  
+    </center>      
+</header>
+
+<!-- Copy And Paste Button Js -->
+<script>
+function copyToClipboard(elementId) {
+
+// Create a "hidden" input
+var aux = document.createElement("input");
+
+// Assign it the value of the specified element
+aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+
+// Append it to the body
+document.body.appendChild(aux);
+
+// Highlight its content
+aux.select();
+
+// Copy the highlighted text
+document.execCommand("copy");
+
+// Remove it from the body
+document.body.removeChild(aux);
+
+}
+</script>
+<header  id="p-i-t">
+    <p class="p">
+      <p class="p" style="padding: 42px; font-family: Arial, Helvetica, sans-serif"> <strong> Running Spotify For The First Time : </strong> </p> 
+       <br>
+<pre style="padding-left: 40px;">
+After you've installed Spotify, a shortcut icon should be present in the application launcher of your desktop environment. 
+
+Simply search for Spotify using its search function or look through the applications list. After clicking the icon, Spotify should open up.
+</pre>
+<br>
+<pre style="padding-left: 40px;">
+⭐ Note : Sometimes the application wont show in the menu, to fix this issue :  
+   
+    Logging out and back in again or restarting your computer will usually cause Spotify to appear.
+
+</pre>
+
+<pre style="padding-left: 40px;">
+Experiencing Any Errors, "Subscribe" To My Channel : <a href="https://www.youtube.com/channel/UCoROPepARvT7Tp4qX2vOyVg/?sub_confirmation=1" style="color: #00c9ed;">IbsterTech</a> , Then Comment Down In The Comment  Section Below, And I Will Try My Best To Help You!!.
+
+
+</pre>
+</p>
+</header>
+<center>
+    <h3 style="padding: 20px;">Subscribe To IbsterTech's Youtube Channel! : </h3>
+<a href="https://www.youtube.com/channel/UCoROPepARvT7Tp4qX2vOyVg/?sub_confirmation=1">
+ <img width="200px" height="50px" src="https://i.imgur.com/9vg5cP1.png" style="user-select: none; -webkit-user-select: none;  -moz-user-select: none; -ms-user-select: none;" title="Support IbsterTech!"  alt="Subscribe">
+</a>
+</center>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+.I-T-R-B{
+    color: white;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 32px;
+    padding: 20px;
+}
+.Yt-Video{
+    padding: 50px;
+    user-select: none; 
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none;
+}
+.Commands-Line{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border-radius: 10px;
+    padding: 20px 15px 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.C-I-T{
+    color: whitesmoke;
+    padding: 20px 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+#p-heading{
+     font-family: 'Moon Dance', cursive;
+     font-size: 22px;
+     font-weight: bolder;
+}
+#Top-Note{
+    color: whitesmoke; 
+    background-color: rgb(49, 49, 49); 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 0px;
+}
+hr{
+   background-color: #fff;
+}
+#Button{
+    margin: 20px;
+}
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    border-radius: 30px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    user-select: none; 
+    -webkit-user-select: none;  
+    -moz-user-select: none; 
+    -ms-user-select: none;
+}
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.p-c{
+  text-align:center;
+  background-color:dimgray;
+  border-radius:20px;
+  padding:20px;
+}
+.Info-Summary{
+  color:white;
+  font-family:'Luxurious Roman', cursive;
+
+}
+.p{
+  background-color:transparent;
+  text-align:unset;
+  color:white;
+}
+a{
+  color:wheat;
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+}
+
+ul{
+  padding-left:40px;
+}
+.h6{
+   font-size:16px;
+}
+#p-i-t{
+  color:white;
+  font-family:'Oswald', sans-serif;
+}
+.a-link2{
+   color:red;
+}
+h3{
+  color:white;
+  font-family:'Luxurious Roman', cursive;
+}
+@media only screen and (max-width: 1366px) {
+   .Yt-Video{
+       width: 1100px;
+       height: 630px;
+   }
+   .Note-Method{
+      font-size: 14px;
+   }
+   #About-Section{
+      font-size: 15px;
+   }
+   #About-Title{
+     font-size: 16px;
+   }
+   #Note-Method-Warning{
+      font-size: 15px;
+   }
+}
+
+@media only screen and (max-width: 1280px) {
+   .p{
+       font-size: 12px;
+   }
+   p{
+       font-size: 12px;
+   }
+   pre{
+       font-size: 11px;
+   }
+   li{
+       font-size: 12px;
+   }
+}
+
+</style>
+
+<!-- Essentials -->
+<a id="buttontop"></a>
+<div class="footer-section"></div>
+<!-- End -->
+</body>
+</html>

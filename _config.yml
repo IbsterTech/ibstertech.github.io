@@ -1,21 +1,2 @@
 theme: jekyll-theme-minimal
 description: IbsterTech makes helpful tech tutorials for everyone to use!
-defaults:
-     -
-       scope:
-         path: "/Contact.html"
-         type: "directories"
-       values:
-         layout: "default"
-     -
-       scope:
-         path: ""
-         type: "html"
-       values:
-         layout: "default"
-     -
-       scope:
-         path: ""
-         type: "markdown"
-       values:
-         layout: "page"
