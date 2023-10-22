@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Install Pycharm On Linux - Latest Version</title>
+    <meta name="description" content="In this tutorial we teach you a straightforward way of installing pycharm on linux." />
+    <meta name="keywords" content="How To Install Pycharm-Community On Linux, how to install pycharm on linux?, Pycharm on linux, Pycharm">
+    <meta name="author" content="IbsterTech, ibstertech, Ibster Tech, ibster tech, Ibster, ibster"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="/Js/main-script.js"></script>
+    <script src="/Js/app.js"></script>
+    <link rel="stylesheet" href="/Css/Styles.css">
+    <link rel="stylesheet" href="/Css/App.css">
+</head>
+<body>
+<!-- Essentials -->
+<div class="loader-container"></div>
+<nav id="menu-bar"></nav>
+<!-- End -->
+<!-- Content -->
+<h1 class="t-h">How To Install Pycharm On Linux - IbsterTech</h1>
+<hr>
+<p class="c-c c-l">
+ <b>Note:</b> Make sure you watch the video below, to install pycharm without any problems!
+</p>
+<iframe class="YT-Video" src="https://www.youtube.com/embed/ufUbYD-DVtQ" title="How To Install Pycharm On Linux - Latest Version" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p class="a-i">About Pycharm </p>
+<p class="a-p">PyCharm is an integrated development environment used for programming in Python. <br> It provides code analysis, a graphical debugger, an integrated unit tester, integration with version control systems, and supports web development with Django. PyCharm is developed by the Czech company JetBrains. <a href="https://en.wikipedia.org/wiki/Pycharm" class="a-1" target="_blank">Wikipedia</a>
+<header class="c-l">
+<p class="c-c">Make Sure Your System Is UpTo Date: </p>
+<p id="c1" class="p-c">sudo apt update -y && sudo apt upgrade -y</p>
+<button id="Button" onclick="copyToClipboard('c1')">Copy Code!</button>
+<p class="c-c">Installation of essential dependencies:</p>
+<p id="c2" class="p-c"> sudo apt install snapd && sudo snap install core</p>
+<button id="Button" onclick="copyToClipboard('c2')">Copy Code!</button>
+<p class="c-c">Setting Up Snap: </p>
+<p id="c3" class="p-c">sudo systemctl restart snapd && sudo systemctl enable --now snapd apparmor</p>
+<button id="Button" onclick="copyToClipboard('c3')">Copy Code!</button>
+<p class="h-1">Pycharm Installation Options </p>
+<p class="c-c">Pycharm Community Edition</p>
+<p id="c13" class="p-c">sudo snap install pycharm-community --classic</p>
+<button id="Button" onclick="copyToClipboard('c13')">Copy Code!</button>
+<p class="c-c">Pycharm Professional Edition </p>
+<p id="c14" class="p-c">sudo snap install pycharm-professional --classic</p>
+<button id="Button" onclick="copyToClipboard('c14')">Copy Code!</button>
+<p class="c-c">Pycharm Educational Edition </p>
+<p id="c15" class="p-c">sudo snap install pycharm-educational --classic</p>
+<button id="Button" onclick="copyToClipboard('c15')">Copy Code!</button>
+<p class="h-1"> Running Pycharm For The First Time</p>
+<p class="h-2">After you've installed Pycharm, a shortcut icon should be present in the application launcher of your desktop environment.
+<br>
+Simply search for Pycharm using its search function or look through the applications list. After clicking the icon, Pycharm should open up.
+<br> Sometimes the Installation does not update properly, hence Pycharm won't be present in your system .. <br> In that case logging out and back in again or restarting your computer will usually cause your system to update and Pycharm to appear in your system .. <br> Need Help? Join Our <a href="https://discord.gg/4kXx97445F" class="a-1" target="_blank">Discord!</a>
+</p>
+</header>
+<header class="c-l">
+  <h2 class="c-c c-u">Uninstalling Pycharm - How To Uninstall Pycharm From You Linux System!</h2>
+  <p class="c-c" style="background-color: rgb(29, 29, 29);">For whatever reason you want uninstall Pycharm we got you covered!</p>
+  <p class="c-c">Firstly remove the <small class="q-g">“/opt/Pycharm”</small> directory: </p>
+  <p id="c27" class="p-c">sudo rm -R /opt/Pycharm</p>
+  <button id="Button" onclick="copyToClipboard('c27')">Copy Code!</button>
+  <p class="c-c">Removing the Pycharm server configuration file <small class="q-g">“Pycharm-server.conf”</small>: </p>
+  <p id="c28" class="p-c">sudo rm -f /etc/Pycharm-server.conf</p>
+     <button id="Button" onclick="copyToClipboard('c28')">Copy Code!</button>
+     <p class="c-c">Remove the Pycharm configuration file <small class="q-g">“Pycharm.conf”</small> that is utilized for configuring the database: </p>
+    <p id="c29" class="p-c">sudo rm -f /etc/Pycharm.conf</p>
+     <button id="Button" onclick="copyToClipboard('c29')">Copy Code!</button>
+     <p class="c-c">Finally, remove the <small class="q-g">“/etc/init.d/Pycharm-server”</small> directory that assists in starting Pycharm service at system boot: </p>
+    <p id="c30" class="p-c">sudo rm -f /etc/init.d/Pycharm-server</p>
+     <button id="Button" onclick="copyToClipboard('c30')">Copy Code!</button>
+     <p class="c-c">You can also remove the dependencies that you installed whilst installing Pycharm:</p>
+    <p id="c31" class="p-c">sudo apt remove python3-pip wget python3-dev python3-venv python3-wheel libxml2-dev libpq-dev libjpeg8-dev liblcms2-dev libxslt1-dev zlib1g-dev libsasl2-dev libldap2-dev build-essential git libssl-dev libffi-dev libmysqlclient-dev libjpeg-dev libblas-dev libatlas-base-dev postgresql -y </p>
+     <button id="Button" onclick="copyToClipboard('c31')">Copy Code!</button>
+   </header>
+<div id="app"></div>
+<!-- Essentials -->
+<a id="buttontop"></a>
+<div class="footer-section"></div>
+<!-- End -->
+</body>
+</html>
