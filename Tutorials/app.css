@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: rgb(80, 80, 80) !important;
+  background: #272727 !important;
 }   
 #itemInput {
   width: 100%;
