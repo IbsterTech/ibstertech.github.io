@@ -14,7 +14,6 @@ body{
   box-sizing: border-box;
   transition:all 0.7s ease-out;
   border-radius: 35pt;
-
 }
 h1, h2, h3, h4, h5, h6 {
      color: #fff !important;
@@ -222,7 +221,6 @@ a:hover{
   transition:all 0.5s ease-out;
 }
 
- 
 @keyframes blur {
   0%,
   90% {
