@@ -5,9 +5,7 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 html, body{
-  box-shadow:  0 0 5px #0db0f1,
-  0 0 10px #12c2ee;
-  border-width: thin;
+  border: 1px solid #5cd0ff;
 }
 body{
   background-color: #181818 !important;
