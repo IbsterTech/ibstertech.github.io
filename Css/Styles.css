@@ -5,7 +5,8 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 html, body{
-  border: 1px solid rgb(52, 235, 235);
+  box-shadow:  0 0 5px #0db0f1,
+  0 0 10px #12c2ee;
   border-width: thin;
 }
 body{
