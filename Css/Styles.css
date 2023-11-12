@@ -183,7 +183,7 @@ a:hover{
   animation-delay: 0s;
   animation-iteration-count: 1;
   animation-name:  slideInFromTop;
-  transition:all 0.4s ease-out;
+  transition:all 1.4s ease-out;
 }
 .wrapper .nav-links{
   display: inline-flex;
