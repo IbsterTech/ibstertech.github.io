@@ -60,7 +60,7 @@ $(document).ready(function(){
 });
 
 console.log("A rat race is for rats. We're not rats. We're human beings. Reject the insidious pressures in society that would blunt your critical faculties to all that is happening around you, that would caution silence in the face of injustice lest you jeopardise your chances of promotion and self-advancement.")
- 
+console.log("“You can’t win unless you try to win, but you can lose by trying not to lose.”")
 
 // Context Menu Disabling
 // $(document).bind("contextmenu",function(e) { 
