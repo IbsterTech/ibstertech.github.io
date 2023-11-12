@@ -643,19 +643,7 @@ p.copyright {
   color: rgb(40, 201, 250) !important;
   text-shadow: 1px 1px #00d9ff;   
 }
-/* Contact */
-.c-t{
-  margin: 5px;
-}
-/* About */
-.a-t{
-  margin: 5px;
-}
-/* Privacy */
-.p-t{    
-  margin: 5px;
-}
-/* DMCA */
-.d-t{    
+/* contact, about, privacy, dmca */
+.c-t, .a-t, .p-t, .d-t{
   margin: 5px;
 }
