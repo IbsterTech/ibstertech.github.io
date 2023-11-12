@@ -51,8 +51,6 @@ a:hover{
 
 ::-webkit-scrollbar-thumb:active{
   background: #272727 !important;
-  box-shadow:  0 0 50px #0db0f1,
-  0 0 50px #12c2ee;
   transition:all 0.9s ease-out;
 }
 ::-webkit-scrollbar-button{
@@ -63,15 +61,12 @@ a:hover{
 ::-webkit-scrollbar-track-piece{
   background: #0c0c0c !important;
   border-left: 2px solid #0db0f1;
-  box-shadow:  0 0 50px #0db0f1,
-  0 0 50px #12c2ee;
   transition:all 0.5s ease-out;
 }
 ::-webkit-scrollbar-track {     
   background: #0c0c0c !important;
   border-left: 2px solid #0db0f1;
-  box-shadow:  0 0 50px #0db0f1,
-  0 0 50px #12c2ee;
+  
   transition:all 0.5s ease-out;
 }
 .loader-container{
@@ -248,7 +243,7 @@ a:hover{
   scroll-behavior: smooth;
 }
 #row3{
-  height: 200px; 
+  height: 400px; 
   width: 400px;
   padding-right: 50px;
   overflow-y: auto;
