@@ -10,4 +10,4 @@ User-agent: slurp     (Yahoo)
 User-agent: *
 Allow: /
 
-Sitemap: https://ibstertech.epizy.com/sitemap.xml
+Sitemap: https://ibstertech.github.io/sitemap.xml
