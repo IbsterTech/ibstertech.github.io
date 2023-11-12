@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: 'Josefin Sans', sans-serif;
 }
+html, body{
+  border: 1px solid rgb(52, 235, 235);
+  border-width: thin;
+}
 body{
   background-color: #181818 !important;
   color: #fff !important;
