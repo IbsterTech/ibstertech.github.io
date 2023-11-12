@@ -201,7 +201,7 @@ a:hover{
   text-decoration: none !important;
   padding: 9px 15px;
   border-radius: 5px;
-  transition:all 0.9s ease-in-out;
+  transition:all 0.2s ease-in-out;
 }
 
 .nav-links li a:hover{
