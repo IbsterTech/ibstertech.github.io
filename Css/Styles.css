@@ -243,7 +243,7 @@ a:hover{
   scroll-behavior: smooth;
 }
 #row3{
-  height: 200px; 
+  height: 500px; 
   width: 400px;
   padding-right: 50px;
   overflow-y: auto;
