@@ -6,6 +6,8 @@
 }
 html, body{
   border: 1px solid #5cd0ff;
+  border-top: none;
+  
 }
 body{
   background-color: #181818 !important;
