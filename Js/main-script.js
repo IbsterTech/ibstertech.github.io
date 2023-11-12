@@ -59,7 +59,7 @@ $(document).ready(function(){
 ;
 });
 
-console.log('Welcome to a console built for kings and scum!')
+console.log("A rat race is for rats. We're not rats. We're human beings. Reject the insidious pressures in society that would blunt your critical faculties to all that is happening around you, that would caution silence in the face of injustice lest you jeopardise your chances of promotion and self-advancement.")
  
 
 // Context Menu Disabling
