@@ -6,8 +6,6 @@
 }
 html, body{
   border: 1px solid #5cd0ff;
-  z-index: 1000000000000000000000000000 !important;
-
 }
 body{
   background-color: #181818 !important;
