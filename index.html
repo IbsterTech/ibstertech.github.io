@@ -48,37 +48,25 @@
 .i-yt:hover{
   color: red;
 }
-.welcome-title{
-  padding-top: 5em !important;
-  display: flex !important;
-  justify-content: center !important;
-}
-.welcome-title p {
-  color: #fff !important;
-  font-family: monospace !important;
-  overflow: hidden !important;
-  border-right: .15em solid rgb(71, 166, 255) !important;
-  white-space: nowrap !important;
-  margin: 0 auto !important;
-  letter-spacing: .15em !important;
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
+h1 {
+  font-size: 5em;
+  color: white;
+  text-transform: uppercase;
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
 }
 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(0, 174, 255) }
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
 }
 </style>
-<div class="welcome-title">
-  <p>Hello World!</p>
-</div>
+<h1>Hello World!</h1>
+
 <div class="accordion accordion-flush p-5 m-5 user-select-none center" style="max-width: 1000px; margin-left: auto !important; margin-right: auto !important; position: relative;" id="accordionFlushExample">
 <div class="accordion-item">
 <h2 class="accordion-header">
