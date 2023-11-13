@@ -186,6 +186,7 @@ background-color: #1deff7;
   animation-iteration-count: 1;
   animation-name:  slideInFromTop;
   transition:all .2s ease-out;
+  cursor: pointer !important;
 }
 .wrapper .nav-links{
   display: inline-flex;
