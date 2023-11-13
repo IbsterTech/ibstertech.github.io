@@ -143,7 +143,8 @@ background-color: #1deff7;
   border-radius: 0px 0px 0px 0px;
   box-shadow:  0 0 5px #0db0f1,
   0 0 10px #12c2ee;
-  border-top: 1px solid #5cd0ff;
+  border: 1px solid #5cd0ff;
+  border-bottom: none;
 }
 #menu-bar .wrapper{
   position: relative;
