@@ -553,6 +553,8 @@ p.copyright {
  animation-delay: 0s;
  animation-iteration-count: 1;
  animation-name:  slideInFromLeft;
+ box-shadow: 0 0 2px #0db0f1, 0 0 3px #12c2ee;
+
 }
 /* IbsterTech Copyright */
 .i-u{
@@ -629,7 +631,8 @@ p.copyright {
  margin-left: auto;
  margin-right: auto;
  text-align: center;
- animation-duration: 1s;
+ animation-duration: 1s;  border-top: 1px solid #5cd0ff;
+
  animation-timing-function: ease-in-out;
  animation-delay: 0s;
  animation-iteration-count: 1;
