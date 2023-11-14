@@ -79,13 +79,15 @@ body{
 
 }
 #item-ul li a:hover{
-border-radius: 5px 15px 5px 15px;
 box-shadow:  0 0 5px #0db0f1,
            0 0 10px #12c2ee;
 outline-color: rgba(255, 68, 68, 0);
 outline-offset: 15px; 
 text-shadow: 10px 10px 20px #5ec6f3; 
 transition:all 0.5s ease-out;
+border-radius: 10% !important;
+
+
 }
 
 @keyframes blur {
