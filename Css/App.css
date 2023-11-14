@@ -287,12 +287,12 @@ br{
 /* Disqus_thread   */
 #disqus_thread{
     background: rgb(70,70,70);
-    background: linear-gradient(90deg, rgba(70,70,70,1) -1%, rgb(43 39 39) 100%)!important;
+    background: linear-gradient(90deg, rgb(39 37 37) -1%, rgb(43 39 39) 100%)!important;
     padding: 100px;
 }
 .media{
     background: rgb(70,70,70);
-    background: linear-gradient(90deg, rgba(70,70,70,1) -1%, rgb(43 39 39) 100%)!important;
+    background: linear-gradient(90deg, rgb(39 37 37) -1%, rgb(43 39 39) 100%)!important;
     margin-bottom: 0;
 
 }
