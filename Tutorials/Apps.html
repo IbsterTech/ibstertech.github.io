@@ -21,7 +21,8 @@
 <script>
   document.onreadystatechange = function () {
     if (document.readyState === "interactive") {
-      document.body.innerHTML = '<h4><code>ul</code> with <i>ul_o</i> has '+document.getElementById("item-ul").getElementsByTagName("li").length +' <code>li</code> Tags</h4>';
+      let count = document.getElementById("item-ul").getElementsByTagName("li").length
+      document.body.innerHTML.getElementById('ul-counter') = count;
     }
   }
   </script>
