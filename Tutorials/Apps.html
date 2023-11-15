@@ -18,8 +18,15 @@
 <nav id="menu-bar"></nav>       
 <!-- End -->
 <!-- Content -->
+<script>
+  document.onreadystatechange = function () {
+    if (document.readyState === "interactive") {
+      document.body.innerHTML = '<h4><code>ul</code> with <i>ul_o</i> has '+document.getElementById("item-ul").getElementsByTagName("li").length +' <code>li</code> Tags</h4>';
+    }
+  }
+  </script>
 <input type="text" id="itemInput" onkeyup="itemFunction()" placeholder="What would ya like to install ?" maxlength="210" spellcheck="false">
-<p class="r-i">Apps Found: </p>
+<p class="r-i">Apps Available: <span id="ul-counter"></span> </p>
 <ul id="item-ul">
   <li><a href="/Linux/how-to-install-odoo-on-linux.html">odoo </a></li>
   <li><a href="/Linux/how-to-install-firefox-on-linux.html">firefox </a></li>
