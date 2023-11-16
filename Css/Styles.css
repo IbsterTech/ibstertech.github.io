@@ -500,6 +500,44 @@ nav input{
 
 
 /* Footer */
+@keyframes slideInFromLeft {
+  0% {
+   transform: translateX(-100%);
+  }
+  100% {
+   transform: translateX(0);
+  }
+}
+@keyframes slideInFromRight {
+   0% {
+    transform: translateX(100%);
+   }
+   100% {
+    transform: translateX(0);
+   }
+}
+@keyframes rainbow-text-simple-animation-rev {
+   0% {
+    background-size: 650%;
+   }
+   40% {
+    background-size: 650%;
+   }
+   100% {
+    background-size: 100%;
+   }
+}
+@keyframes rainbow-text-simple-animation {
+   0% {
+    background-size: 100%;
+   }
+   80% {
+    background-size: 650%;
+   }
+   100% {
+    background-size: 650%;
+   }
+}
 *,
 *:before,
 *:after {
@@ -533,14 +571,7 @@ footer {
 .f-b p{
   margin: 0rem !important;
 }
-@keyframes slideInFromLeft {
- 0% {
-  transform: translateX(-100%);
- }
- 100% {
-  transform: translateX(0);
- }
-}
+
 p.copyright {
  color: floralwhite !important;
  line-height: 40px;
@@ -554,7 +585,6 @@ p.copyright {
  animation-iteration-count: 1;
  animation-name:  slideInFromLeft;
 }
-/* IbsterTech Copyright */
 .i-u{
  background-color: #11fff3 !important;
  text-decoration: none;
@@ -584,40 +614,10 @@ p.copyright {
 .i-u:hover{
  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
  text-decoration: none;
-  }
-  @keyframes rainbow-text-simple-animation-rev {
-0% {
- background-size: 650%;
-}
-40% {
- background-size: 650%;
-}
-100% {
- background-size: 100%;
-}
-}
-  @keyframes rainbow-text-simple-animation {
-0% {
- background-size: 100%;
-}
-80% {
- background-size: 650%;
-}
-100% {
- background-size: 650%;
-}
 }
 #year{
  font-family: 'Raleway', sans-serif;
  color: #fff !important;
-}
-@keyframes slideInFromRight {
- 0% {
-  transform: translateX(100%);
- }
- 100% {
-  transform: translateX(0);
- }
 }
 .f-c{
  font-family: 'Bebas Neue', cursive;
