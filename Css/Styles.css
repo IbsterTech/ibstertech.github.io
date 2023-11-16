@@ -358,7 +358,8 @@ background-color: rgb(46, 46, 46);
 }
 .wrapper .btn{
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
+  padding: 0px;
   cursor: pointer;
   display: none;
 }
