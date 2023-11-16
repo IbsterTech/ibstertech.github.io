@@ -269,15 +269,7 @@ ul{
     padding: 50px;
     
 }
-.s-i{
-    width:200px;
-    height:50px;
-    margin: 10px;
-    user-select: none; 
-    -webkit-user-select: none;  
-    -moz-user-select: none; 
-    -ms-user-select: none;  
-}
+
 br{
     user-select: none; 
     -webkit-user-select: none;  
