@@ -360,6 +360,7 @@ background-color: rgb(46, 46, 46);
   color: #fff;
   font-size: 25px;
   padding: 0px;
+  padding-top: 10px;
   cursor: pointer;
   display: none;
 }
