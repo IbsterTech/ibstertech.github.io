@@ -283,12 +283,7 @@ br{
     padding: 10px;
     padding-bottom: 50px;
 }
-.media{
-    background: rgb(70,70,70);
-    background: linear-gradient(90deg, rgb(39 37 37) -1%, rgb(43 39 39) 100%)!important;
-    margin-bottom: 0;
 
-}
 #app{
     margin: 0 !important;
     padding: 0 !important;
