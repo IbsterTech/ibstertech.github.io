@@ -323,8 +323,8 @@ br{
     padding: 10px;
     padding-bottom: 50px;
 }
-.publisher-background-color {
-    background-color: #898d91 !important;
+.dark{
+    background-color: #000 !important;
 }
 iframe[sandbox]:not([sandbox=""]) {
     display: none !important;
