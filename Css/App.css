@@ -323,9 +323,6 @@ br{
     padding: 10px;
     padding-bottom: 50px;
 }
-.btn{
-    background-color: red !important;
-}
 iframe[sandbox]:not([sandbox=""]) {
     display: none !important;
 }
