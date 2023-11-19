@@ -359,6 +359,11 @@ background-color: rgb(46, 46, 46);
   padding-top: 10px;
   cursor: pointer;
   display: none;
+  background: none !important;
+  border: none !important;
+}
+.wrapper .btn:hover{
+  color: #fff !important;
 }
 .wrapper .btn.close-btn{
   position: absolute;
