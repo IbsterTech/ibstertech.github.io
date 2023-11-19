@@ -262,7 +262,7 @@ ul{
 
 /* MEDIA/Disqus_thread */
 .s-h{
-    background-color: #232222;
+    background-color: #272727 !important;
     color: white;
     font-family: 'Secular One', sans-serif;
     text-align: center;
@@ -270,12 +270,13 @@ ul{
     padding: 50px;
 }
 .media{
-    background-color: #232222;
+    background-color: #272727 !important;
+
     margin-bottom: 0;
   }
 .social-icons{
     padding:30px;
-    background-color: #232222;
+    background-color: #272727 !important;
     text-align: center;
   
 }
