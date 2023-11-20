@@ -131,7 +131,8 @@ button:active {
     border-top: 1px solid #fff;
 }
 .dark{
-    background-color: #252525;
+    background-color: #3a3a3a;
+    border: 1px solid rgb(211, 211, 211);
 }
 /* Text Links */
 .a-1{
