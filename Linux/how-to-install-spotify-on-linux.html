@@ -21,75 +21,47 @@
 <h1 class="t-h">How To Install Spotify On Linux - IbsterTech</h1>
 <hr>
 <p class="c-c c-l"><b>Note:</b> Make sure you watch the video below, to install spotify without any problems!</p> 
-<iframe  class="YT-Video" src="https://www.youtube.com/embed/D-Xm21kuRk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  class="YT-Video" src="https://www.youtube.com/embed/D-Xm21kuRk0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p class="a-i">About Spotify</p>
 <p class="a-p">
   Spotify is a Swedish Audio streaming and media services provider founded on 23 April 2006 by Daniel Ek and Martin Lorentzon. 
   <br> It is the world's largest music streaming service provider, with over 381 million monthly active users, including 172 million paying subscribers, as of September 2021.
   <a href="https://en.wikipedia.org/wiki/Spotify">Wikipedia</a>
 </p>
-<p class="p" style="padding: 35px;" id="Note-Method-Warning">
-    To Install Snap(Snap is only required for Method 1) On Other Linux Distros, Go To The Offical Snap Website Documentation : 
-     <a href="https://snapcraft.io/docs/installing-snapd" class="a-link2" target="_blank">https://snapcraft.io/docs/installing-snapd</a> 
-</p>
-
-<h1 class="C-I-T">Commands(Method 1) : </h1>
-
-<header class="Commands-Line">
-   
+To Install Snap(Snap is only required for Method 1) On Other Linux Distros, Go To The Offical Snap Website Documentation : 
+<a href="https://snapcraft.io/docs/installing-snapd" class="a-link2" target="_blank">https://snapcraft.io/docs/installing-snapd</a> 
+<header class="c-l">
+<p class="c-c">Method 1</p>
 <p id="c1" class="p-c">sudo apt update</p>
-<center>
 <button id="Button" onclick="copyToClipboard('c1')">Copy Code!</button>  
-</center>  
-<hr>
-  <p id="c2" class="p-c">sudo apt install snapd</p>
-  <center>
-    <button id="Button" onclick="copyToClipboard('c2')">Copy Code!</button>  
-    </center>  
-    <hr>
+<p id="c2" class="p-c">sudo apt install snapd</p>
+<button id="Button" onclick="copyToClipboard('c2')">Copy Code!</button>  
 <p id="c3" class="p-c">sudo snap install core</p>
-    <button id="Button" onclick="copyToClipboard('c3')">Copy Code!</button>  
-<hr>
-    <p id="c4" class="p-c">sudo systemctl restart snapd</p>
-        <button id="Button" onclick="copyToClipboard('c4')">Copy Code!</button>  
-        <hr>
-        <p id="c5" class="p-c">sudo snap install spotify</p>
-            <button id="Button" onclick="copyToClipboard('c5')">Copy Code!</button>  
-    </header>
-
-<h1 class="C-I-T">Commands(Method 2) : </h1>
-<header class="Commands-Line">
-   
+<button id="Button" onclick="copyToClipboard('c3')">Copy Code!</button>  
+<p id="c4" class="p-c">sudo systemctl restart snapd</p>
+<button id="Button" onclick="copyToClipboard('c4')">Copy Code!</button>  
+<p id="c5" class="p-c">sudo snap install spotify</p>
+<button id="Button" onclick="copyToClipboard('c5')">Copy Code!</button>  
+<p class="c-c">Method 2 </p> 
 <p id="c6" class="p-c">curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add -</p>
 <button id="Button" onclick="copyToClipboard('c6')">Copy Code!</button>  
-<hr>
-  <p id="c7" class="p-c">echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list</p>
-  <center>
-    <button id="Button" onclick="copyToClipboard('c7')">Copy Code!</button>  
-    </center>  
-    <hr>
+<p id="c7" class="p-c">echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list</p>
+<button id="Button" onclick="copyToClipboard('c7')">Copy Code!</button>  
 <p id="c8" class="p-c">sudo apt-get update && sudo apt-get install spotify-client</p>
-<center>
-    <button id="Button" onclick="copyToClipboard('c8')">Copy Code!</button>  
-    </center>      
-</header>
-<header  id="p-i-t">
-    <p class="p">
-      <p class="p" style="padding: 42px; font-family: Arial, Helvetica, sans-serif"> <strong> Running Spotify For The First Time : </strong> </p> 
-       <br>
-<pre style="padding-left: 40px;">
+<button id="Button" onclick="copyToClipboard('c8')">Copy Code!</button>  
+<strong> Running Spotify For The First Time : </strong> </p> 
 After you've installed Spotify, a shortcut icon should be present in the application launcher of your desktop environment. 
 
 Simply search for Spotify using its search function or look through the applications list. After clicking the icon, Spotify should open up.
-</pre>
+
 <br>
-<pre style="padding-left: 40px;">
  Note : Sometimes the application wont show in the menu, to fix this issue :  
    
     Logging out and back in again or restarting your computer will usually cause Spotify to appear.
-
-</pre>
 </header>
+
+
+
 <div id="app"></div>
 <!-- Essentials -->
 <a id="buttontop"></a>
