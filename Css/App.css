@@ -130,7 +130,9 @@ button:active {
     margin: 0;
     border-top: 1px solid #fff;
 }
-
+.dark{
+    background-color: #252525;
+}
 /* Text Links */
 .a-1{
     color: rgb(18, 180, 224);
