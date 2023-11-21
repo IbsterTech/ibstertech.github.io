@@ -328,9 +328,7 @@ br{
     padding: 10px;
     padding-bottom: 50px;
 }
-.dark{
-    background-color: #000 !important;
-}
+
 iframe[sandbox]:not([sandbox=""]) {
     display: none !important;
 }
