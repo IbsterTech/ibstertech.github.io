@@ -128,7 +128,6 @@ button:active {
     background-color: rgb(63, 63, 63);
     font-size: 14px;
     margin: 0;
-    border-top: 1px solid #fff;
 }
 .dark{
     background-color: #252525 !important;
