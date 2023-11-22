@@ -375,12 +375,20 @@ background-color: rgb(46, 46, 46);
   .mega-box .content{
     height: 1000px;
   }
+
+
 }
 
 @media screen and (max-width: 970px) {
+  #menu-bar .wrapper {
+    padding: 0px 0px !important;
+}
   .wrapper .btn{
- display: block;
+    display: block;
+    padding-right: 30px;
+ 
   }
+
   .wrapper .nav-links{
  position: fixed;
  height: 100vh;
