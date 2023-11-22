@@ -443,7 +443,6 @@ background-color: rgb(46, 46, 46);
  overflow: hidden;
  box-shadow: none;
  transition: all 10.3s ease;
- z-index: 1000000000000000000000000000000000000000000000000000000000000000000000000000;
   }
   #showDrop:checked ~ .drop-menu,
   #showMega:checked ~ .mega-box{
