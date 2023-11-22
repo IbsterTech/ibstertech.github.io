@@ -41,17 +41,20 @@
 <p class="c-c">Refreshing Snapd Installation:</p>
 <p id="c3" class="p-c">sudo systemctl restart snapd</p>
 <button id="Button" onclick="copyToClipboard('c3')">Copy Code!</button>  
-<p class="c-c">Installing Spotify:</p>
+<p class="c-c">Installing spotify:</p>
 <p id="c4" class="p-c">sudo snap install spotify</p>
 <button id="Button" onclick="copyToClipboard('c4')">Copy Code!</button>  
 <p class="c-c dark">Method 2 </p> 
 <p class="c-c">Installation of essential dependency (curl):</p>
 <p id="c5" class="p-c">sudo apt install curl</p>
 <button id="Button" onclick="copyToClipboard('c5')">Copy Code!</button>
+<p class="c-c">Retreiving gpg key: </p>
 <p id="c6" class="p-c">curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add -</p>
 <button id="Button" onclick="copyToClipboard('c6')">Copy Code!</button>  
+<p class="c-c">Retreiving deb file: </p>
 <p id="c7" class="p-c">echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list</p>
 <button id="Button" onclick="copyToClipboard('c7')">Copy Code!</button>  
+<p class="c-c">Installing spotify: </p>
 <p id="c8" class="p-c">sudo apt-get update && sudo apt-get install spotify-client</p>
 <button id="Button" onclick="copyToClipboard('c8')">Copy Code!</button>  
 <p class="h-1">Running Spotify For The First Time</p>
