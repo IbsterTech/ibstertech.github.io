@@ -344,7 +344,11 @@ br{
     -moz-user-select: none;
     -ms-user-select: none;
 }
-
+@media screen and (max-width: 970px) {
+    #disqus_thread{
+      padding: 0px;
+    }
+}
 iframe[sandbox]:not([sandbox=""]) {
     display: none !important;
 }
