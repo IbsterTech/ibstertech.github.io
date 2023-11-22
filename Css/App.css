@@ -238,11 +238,10 @@ ul{
 .h-2{
     line-height: 1.6;
     text-transform: capitalize !important;
-    font-size: 17px;
+    font-size: 15px;
     padding: 30px;
     margin-bottom: 0;
     background-color: #2d2a2a;
-    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 .m-1{
     border-top: 1px solid #ffffff;
