@@ -15,10 +15,9 @@ function copyToClipboard(id){
     window.getSelection().addRange(r);
     document.execCommand('copy');
     window.getSelection().removeAllRanges();
-}
 
 
-function highlightText(id){
+    // Highlight
     const button = document.querySelector('button');
     const copyText = document.getElementsByClassName('p-c');
 
