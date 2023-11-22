@@ -286,6 +286,10 @@ ul{
     padding:30px;
     background-color: #272727 !important;
     text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 .social-icons a{
     color:#fff;
@@ -329,6 +333,10 @@ br{
     background: linear-gradient(90deg, rgb(39 37 37) -1%, rgb(43 39 39) 100%)!important;
     padding: 10px;
     padding-bottom: 50px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 iframe[sandbox]:not([sandbox=""]) {
