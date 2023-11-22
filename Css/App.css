@@ -230,6 +230,8 @@ ul{
     font-family: 'Fjalla One', sans-serif;  
     margin: 0 !important;
     box-shadow: 2px 2px 2px solid rgb(252, 252, 252);
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .h-2{
     line-height: 1.6;
