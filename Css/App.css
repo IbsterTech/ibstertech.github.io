@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 body{
     background-color: #272727 !important;
 }
@@ -242,6 +242,7 @@ ul{
     padding: 30px;
     margin-bottom: 0;
     background-color: #2d2a2a;
+    font-family: 'Comfortaa', sans-serif;
 }
 .m-1{
     border-top: 1px solid #ffffff;
@@ -286,7 +287,6 @@ ul{
 }
 .media{
     background-color: #272727 !important;
-
     margin-bottom: 0;
   }
 .social-icons{
