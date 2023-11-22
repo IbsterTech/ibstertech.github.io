@@ -1,8 +1,7 @@
 var head = document.head;
 var temp = document.createElement('div');
 
-temp.innerHTML =  '<link rel="stylesheet" href="/Css/App.css">'
-;
+temp.innerHTML =  '<link rel="stylesheet" href="/Css/App.css">';
 
 while (temp.firstChild) {
     head.appendChild(temp.firstChild);
