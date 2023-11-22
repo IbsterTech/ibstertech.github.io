@@ -15,16 +15,9 @@ function copyToClipboard(id){
     window.getSelection().addRange(r);
     document.execCommand('copy');
     window.getSelection().removeAllRanges();
-
-
-    // Highlight
-    const button = document.querySelector('button');
-    const copyText = document.getElementsByClassName('p-c');
-
-    button.addEventListener('click', function() {
-        copyText.style.backgroundColor = 'yellow';
-    });
 }
+
+
 
 
 $(document).ready(function(){
