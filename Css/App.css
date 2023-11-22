@@ -10,6 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
 body{
     background-color: #272727 !important;
@@ -240,8 +241,8 @@ ul{
     font-size: 17px;
     padding: 30px;
     margin-bottom: 0;
-    background-color: #3d3a3a;
-    font-family: 'Titillium Web', sans-serif;
+    background-color: #2d2a2a;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 .m-1{
     border-top: 1px solid #ffffff;
