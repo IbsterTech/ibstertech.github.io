@@ -18,16 +18,9 @@
 <nav id="menu-bar"></nav>       
 <!-- End -->
 <!-- Content -->
-<script>
-  document.onreadystatechange = function () {
-    if (document.readyState === "interactive") {
-      let count = document.getElementById("item-ul").getElementsByTagName("li").length
-      document.body.innerHTML.getElementById('ul-counter') = count;
-    }
-  }
-  </script>
 <input type="text" id="itemInput" onkeyup="itemFunction()" placeholder="What would ya like to install ?" maxlength="210" spellcheck="false">
-<p class="r-i">Apps Available: <span id="ul-counter"></span> </p>
+<br>
+<br>
 <ul id="item-ul">
   <li><a href="/Linux/how-to-install-odoo-on-linux.html">odoo </a></li>
   <li><a href="/Linux/how-to-install-firefox-on-linux.html">firefox </a></li>
