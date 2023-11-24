@@ -18,11 +18,12 @@ body{
   font-size: 18px;
   padding: 12px 20px 12px 20px;
   text-transform: capitalize;
-  border-bottom: 1px solid grey;
+  border: 1px solid grey;
   transition:all 0.2s ease-out;
   font-family: 'Tilt Neon', sans-serif;
   font-weight: 900;
   letter-spacing: 3px;
+  border-radius: 0 0 10px 10px;
 }
 
 #itemInput::placeholder{
