@@ -173,6 +173,10 @@ a:hover{
     transition: 0.2s ease-in;
 
 }
+.dwnld{
+    color: none;
+    
+}
 /* Highlights */
 .q-g{
     color: rgb(0, 175, 9);
