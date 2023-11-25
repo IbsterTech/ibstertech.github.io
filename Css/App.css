@@ -196,11 +196,12 @@ a:hover{
 .dwnld-btn{
     color: #fff !important;
     background-color: rgb(0, 217, 255) !important; 
-    background: linear-gradient(90deg, #2e66ff 0%, #00a1ff 50%, #2e66ff 100%) !important;
+    background: linear-gradient(360deg, #2ee0ff 0%, #2e9fff 50%, #2eb2ff 100%) !important;
     border-radius: 10px;
 }
 .dwnld-btn:hover{
-    background: linear-gradient(90deg, #00b7ff 0%, #2e66ff 35%, #419ff1 100%) !important;
+    background: linear-gradient(360deg, #2e9fff 0%, #2e9fff 50%, #2e9fff 100%) !important;
+
 }
 .dwnld-btn:active{
     background: linear-gradient(90deg, rgb(0, 68, 255) 0%, #0044ff 35%, #006eff 100%) !important;
