@@ -196,6 +196,7 @@ a:hover{
     background-color: rgb(0, 217, 255) !important; 
     background: linear-gradient(360deg, #2ee0ff 0%, #2e9fff 50%, #2eb2ff 100%) !important;
     border-radius: 10px;
+    margin: 20px !important;
 }
 .dwnld-btn:hover{
     background: linear-gradient(360deg, #2ee0ff 0%, #3fa7ff 50%, #0892e3 100%) !important;
