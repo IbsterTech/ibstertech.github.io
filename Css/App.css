@@ -11,10 +11,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
 body{
     background-color: #272727 !important;
 }
-/* IbsterTech Video */
+/* Tutorial Headline */
+.t-h{
+    color: white;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 32px;
+    padding: 20px;
+}
+/* youtube video */
 .YT-Video{
     width: 1250px;
     height:700px;
@@ -130,14 +139,7 @@ button:active {
 
 /* Commands End */
 
-/* Tutorial Headline */
-.t-h{
-    color: white;
-    text-align: center;
-    font-family: 'Staatliches', cursive;
-    font-size: 32px;
-    padding: 20px;
-}
+
 /* Command Information */
 .c-c {
     color: #fff;
@@ -204,8 +206,8 @@ a:hover{
     background: linear-gradient(180deg, rgb(0, 162, 255) 0%, #00aeff 35%, #00a2ff 100%) !important;
 
 }
-/* Highlights */
-.q-g{
+/* dirs/command in sentence.  */
+small{
     color: rgb(0, 175, 9);
     background-color: rgb(51, 51, 51);
     text-transform: initial !important;
