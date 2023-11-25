@@ -204,7 +204,7 @@ a:hover{
 
 }
 .dwnld-btn:active{
-    background: linear-gradient(90deg, rgb(0, 68, 255) 0%, #0044ff 35%, #006eff 100%) !important;
+    background: linear-gradient(180deg, rgb(0, 162, 255) 0%, #00aeff 35%, #00a2ff 100%) !important;
 
 }
 /* Highlights */
