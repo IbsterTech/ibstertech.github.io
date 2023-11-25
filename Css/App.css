@@ -135,8 +135,8 @@ button:active {
     background: linear-gradient(90deg, rgb(18, 196, 231) 0%, rgb(10, 202, 236) 43%, rgb(6, 214, 218) 100%);
     color: #bef7ff;
 }
-button:active > button{
-    border: 1px solid #fff;
+button:active button{
+    border: 1px solid #fff !important;
 }
 /* Commands End */
 
