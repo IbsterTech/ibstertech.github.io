@@ -118,7 +118,7 @@ button {
 }
 
 button:hover{
-    opacity: .5;
+    background: linear-gradient(198deg, rgb(71 202 255) 0%, rgb(58 181 255) 35%, rgb(73 216 245) 100%);
 }
 button:active {
     transform: scale(0.99);
