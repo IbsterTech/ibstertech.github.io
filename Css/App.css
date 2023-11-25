@@ -133,7 +133,7 @@ button:hover{
 button:active {
     transform: scale(0.99);
     background: linear-gradient(90deg, rgb(82, 226, 255) 0%, rgb(41, 223, 255) 43%, rgb(99, 252, 255) 100%);
-    outline: 1px solid rgb(52, 241, 255);
+    outline: 1px solid rgb(41, 41, 41);
     outline-offset: -4px;
 }
 
