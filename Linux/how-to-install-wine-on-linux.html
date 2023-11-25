@@ -22,6 +22,38 @@
 <iframe class="youtube-video" src="https://www.youtube.com/embed/ee9P9QRQoSk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p class="a-i">About Wine</p>
 <p class="a-p">Wine is a free and open-source compatibility layer that aims to allow application software and computer games developed for Microsoft Windows to run on Unix-like operating systems. <a href="https://en.wikipedia.org/wiki/Wine_(software)"> Wikipedia</a></p>
+
+<h1 class="h-1">Installing Wine!</h1>
+<p class="c-c">Make Sure Your System Is UpTo Date: </p>
+<p id="c1" class="p-c">sudo apt update -y && sudo apt upgrade -y</p>
+<button id="Button" onclick="copyToClipboard('c1')">Copy Code!</button>
+<p class="c-c">If your system is 64 bit, enable 32 bit architecture:</p>
+<p id="c2" class="p-c">sudo dpkg --add-architecture i386 </p>
+<button id="Button" onclick="copyToClipboard('c2')">Copy Code!</button>
+<p class="c-c">Download and add the repository key:</p>
+<p id="c3" class="p-c">sudo mkdir -pm755 /etc/apt/keyrings && sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key</p>
+<button id="Button" onclick="copyToClipboard('c3')">Copy Code!</button>
+<p class="h-1">Wine Installation </p>
+<p class="c-c">Works for (Ubuntu 22.04, Linux Mint 21.x, etc.) </p>
+<p id="c4" class="p-c">sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources</p>
+<button id="Button" onclick="copyToClipboard('c4')">Copy Code!</button>
+<p class="c-c">To install on (Debian, Fedora, Ubuntu(Newer Versions) etc.) other linux distros click <a href="https://wiki.winehq.org/Download" target="_blank"> here!</a></p>
+<p class="c-c">Update the package information:</p>
+<p id="c5" class="p-c">sudo apt update -y && sudo apt upgrade -y</p>
+<button id="Button" onclick="copyToClipboard('c5')">Copy Code!</button>
+<p class="c-c">Install one of the following packages.</p>
+<p class="c-c">Stable branch</p>
+<p id="c6" class="p-c">sudo apt install --install-recommends winehq-stable</p>
+<button id="Button" onclick="copyToClipboard('c6')">Copy Code!</button>
+<p class="c-c">Development branch</p>
+<p id="c7" class="p-c">sudo apt install --install-recommends winehq-devel</p>
+<button id="Button" onclick="copyToClipboard('c7')">Copy Code!</button>
+<p class="c-c">Staging branch	</p>
+<p id="c8" class="p-c">sudo apt install --install-recommends winehq-staging</p>
+<button id="Button" onclick="copyToClipboard('c8')">Copy Code!</button>
+<p class="c-c">Setting Up Wine</p>
+<p id="c9" class="p-c">winecfg</p>
+<button id="Button" onclick="copyToClipboard('c9')">Copy Code!</button>
 <div id="app"></div>
 <!-- Essentials -->
 <a id="buttontop"></a>
