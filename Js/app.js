@@ -11,14 +11,12 @@ while (temp.firstChild) {
 
 // Copy Button
 function copyToClipboard(id){
-    var copied = document.getElementById("Button")
     var r = document.createRange();
     r.selectNode(document.getElementById(id));
     window.getSelection().removeAllRanges();
     window.getSelection().addRange(r);
     document.execCommand('copy');
     window.getSelection().removeAllRanges();
-    copied.innnerHTML = "Copied!" 
 }
 
 
