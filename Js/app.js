@@ -18,7 +18,8 @@ function copyToClipboard(id){
     document.execCommand('copy');
     window.getSelection().removeAllRanges();
 
-    document.innerHTML.getElementById('Button') = "Copied!"
+    
+    document.getElementById("Button").innnerHTML="New Button Text using innerHTML";
 }
 
 
