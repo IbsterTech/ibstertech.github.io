@@ -199,8 +199,8 @@ a:hover{
     margin: 20px !important;
 }
 .dwnld-btn:hover{
+    background-color: rgb(0, 217, 255) !important; 
     background: linear-gradient(360deg, #2ee0ff 0%, #3fa7ff 50%, #0892e3 100%) !important;
-
 }
 .dwnld-btn:active{
     background: linear-gradient(180deg, rgb(0, 162, 255) 0%, #00aeff 35%, #00a2ff 100%) !important;
