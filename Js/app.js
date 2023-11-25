@@ -14,6 +14,8 @@ function copyToClipboard(id){
     window.getSelection().addRange(r);
     document.execCommand('copy');
     window.getSelection().removeAllRanges();
+
+    document.innerHTML.getElementById('Button') = "Copied!"
 }
 
 
