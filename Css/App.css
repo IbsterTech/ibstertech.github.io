@@ -202,6 +202,10 @@ a:hover{
 .dwnld-btn:hover{
     background: linear-gradient(90deg, #00b7ff 0%, #2e66ff 35%, #419ff1 100%) !important;
 }
+.dwnld-btn:active{
+    background: linear-gradient(90deg, rgb(0, 68, 255) 0%, #0044ff 35%, #006eff 100%) !important;
+
+}
 /* Highlights */
 .q-g{
     color: rgb(0, 175, 9);
