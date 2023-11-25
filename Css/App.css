@@ -118,8 +118,7 @@ button {
 }
 
 button:hover{
-    background: rgb(3,183,217);
-    background: linear-gradient(90deg, rgba(3,183,217,1) 0%, rgba(87,227,255,1) 43%, rgba(33,238,242,1) 100%);
+    opacity: .5;
 }
 button:active {
     transform: scale(0.99);
