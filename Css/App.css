@@ -207,6 +207,7 @@ a:hover{
 .q-g{
     color: rgb(0, 175, 9);
     background-color: rgb(51, 51, 51);
+    text-transform: initial !important;
     padding: 5px;
     user-select: none; 
     -webkit-user-select: none;  
