@@ -133,7 +133,9 @@ button:hover{
 button:active {
     transform: scale(0.99);
     background: linear-gradient(90deg, rgb(18, 196, 231) 0%, rgb(10, 202, 236) 43%, rgb(6, 214, 218) 100%);
-    color: #bef7ff;
+    padding-left: 23px;
+    padding-right: 23px;
+
 }
 
 /* Commands End */
