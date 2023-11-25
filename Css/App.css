@@ -102,7 +102,7 @@ button {
     margin: 0;
     text-decoration: none;
     background: rgb(0,199,193);
-    background: linear-gradient(90deg, rgba(0,199,193,1) 0%, rgba(33,238,242,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(198deg, rgb(0 142 199) 0%, rgb(33 163 242) 35%, rgba(0,212,255,1) 100%);
     color: #ffffff;
     border-radius: 30px;
     font-family: sans-serif;
@@ -121,14 +121,11 @@ button:hover{
     background: rgb(3,183,217);
     background: linear-gradient(90deg, rgba(3,183,217,1) 0%, rgba(87,227,255,1) 43%, rgba(33,238,242,1) 100%);
 }
-button:focus {
-    background: #38d1ff;
-    outline: 1px solid rgb(52, 241, 255);
-    outline-offset: -4px;
-}
 button:active {
     transform: scale(0.99);
     background: linear-gradient(90deg, rgb(82, 226, 255) 0%, rgb(41, 223, 255) 43%, rgb(99, 252, 255) 100%);
+    outline: 1px solid rgb(52, 241, 255);
+    outline-offset: -4px;
 }
 
 /* Commands End */
