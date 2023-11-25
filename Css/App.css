@@ -101,7 +101,7 @@ button {
     padding: 1rem 2rem;
     margin: 0;
     text-decoration: none;
-    background: rgb(0,199,193);
+    background: rgb(12, 206, 255);
     background: linear-gradient(198deg, rgb(0 142 199) 0%, rgb(33 163 242) 35%, rgba(0,212,255,1) 100%);
     color: #ffffff;
     border-radius: 30px;
@@ -118,6 +118,7 @@ button {
 }
 
 button:hover{
+    background: rgb(12, 206, 255);
     background: linear-gradient(198deg, rgb(71 202 255) 0%, rgb(58 181 255) 35%, rgb(73 216 245) 100%);
 }
 button:active {
