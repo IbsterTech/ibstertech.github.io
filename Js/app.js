@@ -1,12 +1,15 @@
 var head = document.head;
 var temp = document.createElement('div');
 
+// import App.css
 temp.innerHTML =  '<link rel="stylesheet" href="/Css/App.css">';
 
 while (temp.firstChild) {
     head.appendChild(temp.firstChild);
 }
+// End
 
+// Copy Button
 function copyToClipboard(id){
     var r = document.createRange();
     r.selectNode(document.getElementById(id));
@@ -20,7 +23,7 @@ function copyToClipboard(id){
 
 
 
-
+// Follow.. Comments..
 $(document).ready(function(){
     $("#app").load("/App/tutorial.html");
 ;
