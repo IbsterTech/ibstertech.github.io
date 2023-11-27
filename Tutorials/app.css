@@ -24,7 +24,7 @@ body{
   font-family: 'Tilt Neon', sans-serif;
   font-weight: 900;
   letter-spacing: 3px;
-  border-radius: 0 0 10px 10px;
+  /* border-radius: 0 0 10px 10px; */
 }
 
 #itemInput::placeholder{
