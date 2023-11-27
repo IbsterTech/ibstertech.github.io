@@ -61,7 +61,6 @@ body{
 #item-ul li a {
   margin-top: -1px; /* Prevent double borders */
   background-color: rgb(26 26 26);
-
   padding: 10px;
   padding-left: 15px;
   margin: 0px 10px 10px 10px;   
@@ -86,7 +85,7 @@ outline-color: rgba(255, 68, 68, 0);
 outline-offset: 15px; 
 text-shadow: 10px 10px 20px #5ec6f3; 
 transition:all 0.5s ease-out;
-border-radius: 10% !important;
+border-radius: 10px !important;
 
 
 }
