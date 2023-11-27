@@ -19,7 +19,10 @@ function copyToClipboard(id){
     window.getSelection().removeAllRanges();
 }
 
-
+$(document).ready(function(){
+    $("#Button").load("/App/button.html");
+;
+});
 
 // Follow.. Comments..
 $(document).ready(function(){
