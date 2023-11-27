@@ -18,7 +18,8 @@ body{
   font-size: 18px;
   padding: 12px 20px 12px 20px;
   text-transform: capitalize;
-  border: 1px solid grey;
+  box-shadow:  0 0 5px #0db0f1,
+  0 0 10px #12c2ee;
   transition:all 0.2s ease-out;
   font-family: 'Tilt Neon', sans-serif;
   font-weight: 900;
@@ -44,7 +45,8 @@ body{
 }
 #itemInput:focus{
     background-color: rgb(66, 66, 66);
-    border: 1px solid #252525;
+    box-shadow:  0px 0px 10px #0db0f1,
+    0 0 10px #12c2ee;
     text-shadow: 1px 1px 1px #3f4749;
     transition:all 0.5s ease-out;
 }
