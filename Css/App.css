@@ -99,12 +99,10 @@ body{
     border: 1px solid #858585;
 
 }
-#Button{
-    margin: 20px;
+#Button {
+    margin: 20px !important;
     margin-left: auto;
     margin-right: auto;
-}
-button {
     display: inline-block;
     border: none;
     padding: 1rem 2rem;
@@ -126,11 +124,11 @@ button {
     -ms-user-select: none;
 }
 
-button:hover{
+#Button:hover{
     background: rgb(12, 206, 255);
     background: linear-gradient(198deg, rgb(71 202 255) 0%, rgb(58 181 255) 35%, rgb(73 216 245) 100%);
 }
-button:active {
+#Button:active {
     transform: scale(0.99);
     background: linear-gradient(90deg, rgb(18, 196, 231) 0%, rgb(10, 202, 236) 43%, rgb(6, 214, 218) 100%);
     padding-left: 23px;
