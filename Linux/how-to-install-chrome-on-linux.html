@@ -30,6 +30,7 @@ Google Chrome is a cross-platform web browser developed by Google.<br> It was fi
 <br> It was later ported to Linux, macOS, iOS, and Android, where it is the default browser. <a href="https://en.wikipedia.org/wiki/Google_Chrome" class="a-1" target="_blank">Wikipedia</a>
 </p> 
 <header class="c-l">
+<p class="c-c dark">Method 1</p>
 <p class="c-c">Make Sure Your System Is UpTo Date: </p>
 <p id="c1" class="p-c">sudo apt update -y && sudo apt upgrade -y</p>
 <button id="Button" onclick="copyToClipboard('c1')">Copy Code!</button>  
@@ -42,7 +43,19 @@ Google Chrome is a cross-platform web browser developed by Google.<br> It was fi
 <p class="c-c c-l">
 Alternative Method(Works For RPM Based Linux Distros): <a href="https://www.google.com/intl/en_us/chrome/" target="_blank" class="a-link">here!</a>
 </p>  
-
+<p class="c-c dark">Method 2</p>
+<p class="c-c">Make Sure Your System Is UpTo Date: </p>
+<p id="c4" class="p-c">sudo add-apt-repository ppa:flatpak/stable</p>
+<p id="c5" class="p-c">sudo apt update -y && sudo apt upgrade -y</p>
+<button id="Button" onclick="copyToClipboard('c5')">Copy Code!</button>  
+<p class="c-c">Installation of flatpak:</p>
+<p id="c6" class="p-c">sudo apt install flatpak</p>
+<button id="Button" onclick="copyToClipboard('c6')">Copy Code!</button>  
+<p class="c-c">Install the Software Flatpak plugin:</p>
+<p id="c7" class="p-c">sudo apt install gnome-software-plugin-flatpak</p>
+<button id="Button" onclick="copyToClipboard('c7')">Copy Code!</button>  
+<p id="c8" class="p-c">flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo</p>
+<button id="Button" onclick="copyToClipboard('c8')">Copy Code!</button>  
 </header>
 <div id="app"></div>
 <!-- Essentials -->
