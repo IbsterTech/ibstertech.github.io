@@ -204,8 +204,6 @@ a:hover{
 }
 .dwnld-btn:active{
     background: linear-gradient(180deg, rgb(0, 162, 255) 0%, #00aeff 35%, #00a2ff 100%) !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
 
 }
 /* dirs/command in sentence.  */
