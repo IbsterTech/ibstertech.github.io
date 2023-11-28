@@ -60,6 +60,7 @@ $(document).ready(function(){
 ;
 });
 // Console Message
+console.log("My unmatched perspicacity, coupled with sheer indefatigability, makes me a feared opponent in any realm of human endeavor.")
 console.log("“You can’t win unless you try to win, but you can lose by trying not to lose.”")
 
 // Typewriter js
