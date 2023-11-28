@@ -99,6 +99,7 @@ body{
     border: 1px solid #858585;
 
 }
+/* Copy Button */
 #Button {
     margin: 20px !important;
     margin-left: auto;
@@ -129,13 +130,26 @@ body{
     background: linear-gradient(198deg, rgb(71 202 255) 0%, rgb(58 181 255) 35%, rgb(73 216 245) 100%);
 }
 #Button:active {
-    transform: scale(0.99);
+    transform: scale(1.1);
     background: linear-gradient(90deg, rgb(18, 196, 231) 0%, rgb(10, 202, 236) 43%, rgb(6, 214, 218) 100%);
-    padding-left: 23px;
-    padding-right: 23px;
-
+    transition: all 0.9ms;
 }
-
+/* Download Button */
+.dwnld-btn{
+    color: #fff !important;
+    background-color: rgb(0, 217, 255) !important; 
+    background: linear-gradient(360deg, #2ee0ff 0%, #2e9fff 50%, #2eb2ff 100%) !important;
+    border-radius: 10px !important;
+    margin: 25px !important;
+}
+.dwnld-btn:hover{
+    background-color: rgb(0, 217, 255) !important; 
+    background: linear-gradient(360deg, #2ee0ff 0%, #3fa7ff 50%, #0892e3 100%) !important;
+}
+.dwnld-btn:active{
+    background: linear-gradient(180deg, rgb(0, 162, 255) 0%, #00aeff 35%, #00a2ff 100%) !important;
+    transform: scale(1) !important;
+}
 /* Commands End */
 
 
@@ -191,21 +205,7 @@ a:hover{
     transition: 0.2s ease-in;
 
 }
-.dwnld-btn{
-    color: #fff !important;
-    background-color: rgb(0, 217, 255) !important; 
-    background: linear-gradient(360deg, #2ee0ff 0%, #2e9fff 50%, #2eb2ff 100%) !important;
-    border-radius: 10px !important;
-    margin: 25px !important;
-}
-.dwnld-btn:hover{
-    background-color: rgb(0, 217, 255) !important; 
-    background: linear-gradient(360deg, #2ee0ff 0%, #3fa7ff 50%, #0892e3 100%) !important;
-}
-.dwnld-btn:active{
-    background: linear-gradient(180deg, rgb(0, 162, 255) 0%, #00aeff 35%, #00a2ff 100%) !important;
 
-}
 /* dirs/command in sentence.  */
 small{
     color: rgb(0, 175, 9);
