@@ -43,7 +43,7 @@ body{
 }
 #itemInput:focus{
     background-color: rgb(66, 66, 66);
-    border: 1px solid #585858;
+    border: 1px solid #1a93f7;
     text-shadow: 1px 1px 1px #748185;
     transition:all 0.5s ease-out;
 }
