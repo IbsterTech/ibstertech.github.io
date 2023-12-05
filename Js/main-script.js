@@ -37,7 +37,7 @@ while (temp.firstChild) {
 
 // Preloader Func
 $(window).on("load",function(){
-     $(".loader-container").fadeOut(1000);
+     $(".loader-container").fadeOut(2000);
 });
 $(document).ready(function(){
     $(".loader-container").load("/App/preloader.html");
