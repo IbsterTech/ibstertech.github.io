@@ -127,7 +127,7 @@ background-color: #1deff7;
   height: 80px;
   width: 100%;
   position: sticky;
-  z-index:10000;
+  z-index:999999999999999999999999999999999;
   min-height: 100%;
   max-height: 100%;
   top: 0 !important;
@@ -302,6 +302,8 @@ background-color: rgb(46, 46, 46);
   visibility: hidden;
   z-index: 999999;
   transition:all 0.2s ease-out;
+    box-shadow:  0 0 5px #0db0f1,
+  0 0 10px #12c2ee;
 }
 .mega-box .content{
   background: #272727;
