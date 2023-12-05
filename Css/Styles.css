@@ -143,6 +143,7 @@ background-color: #1deff7;
   box-shadow:  0 0 5px #0db0f1,
   0 0 10px #12c2ee;
   border-bottom: none;
+  font-family: 'Acme', sans-serif !important;
 
 }
 #menu-bar .wrapper{
@@ -319,7 +320,7 @@ background-color: rgb(46, 46, 46);
 
 }
 .row-menu header{
-  font-family: 'Sansita', sans-serif;
+  font-family: 'Sansita', sans-serif !important;
 
 }
 .content .row-menu img{
