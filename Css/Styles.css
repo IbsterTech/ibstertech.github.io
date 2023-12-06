@@ -92,6 +92,7 @@ background-color: #1deff7;
  border-top-color: transparent;
  animation: loader 0.4s linear infinite;
 }
+
 @keyframes loader{
  20%{
   color: #00ffea;
