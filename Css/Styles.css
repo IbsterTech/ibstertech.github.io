@@ -379,6 +379,11 @@ background-color: rgb(46, 46, 46);
 }
 
 @media screen and (max-width: 970px) {
+  #IbsterTech-Logo:hover{
+    transform: scale(1);
+    transition:all 0.5s ease-out;
+  
+  }
   .mega-box{
      border-radius: 20px;
   }
@@ -393,7 +398,11 @@ background-color: rgb(46, 46, 46);
 }
   .wrapper .btn{
     display: block;
-    padding-right: 30px;
+    padding-right: 5px;
+  }
+  .menu-btn{
+    padding-right: 30px !important;
+    
   }
   .nav-links li a:hover {
     background: none !important;
