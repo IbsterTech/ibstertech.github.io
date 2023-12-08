@@ -227,6 +227,11 @@ small{
     max-width: 900px;
     margin: 25px;
     border-radius: 10px;
+    border: 1px solid #878787;
+
+}
+#img-t:hover{
+    filter: blur(2px);
 }
 #p-heading{
     font-family: 'Rubik Moonrocks', cursive;
