@@ -231,7 +231,7 @@ small{
 
 }
 #img-t:hover{
-    filter: blur(2px);
+    filter: blur(1px);
 }
 #p-heading{
     font-family: 'Rubik Moonrocks', cursive;
