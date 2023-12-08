@@ -223,7 +223,11 @@ small{
     font-family: 'Signika Negative', sans-serif;
     background-color: rgb(37, 37, 37) !important;
 }
-
+#img-t{
+    max-width: 900px;
+    margin: 25px;
+    border-radius: 10px;
+}
 #p-heading{
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 22px;
