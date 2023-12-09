@@ -235,12 +235,13 @@ small{
     margin-right: auto
 }
 #img-t:hover{
-    filter: blur(1px);
+    
     opacity: 0.7;
 }
 @media only screen and (max-width: 970px) {
     #img-t{
     width: 100%;
+    height: 100%;
     }
 }
 #p-heading{
