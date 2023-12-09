@@ -228,10 +228,15 @@ small{
     margin: 25px;
     border-radius: 10px;
     border: 1px solid #878787;
-
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 #img-t:hover{
     filter: blur(1px);
+    opacity: 0.7;
 }
 #p-heading{
     font-family: 'Rubik Moonrocks', cursive;
