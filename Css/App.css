@@ -224,7 +224,8 @@ small{
     background-color: rgb(37, 37, 37) !important;
 }
 #img-t{
-    max-width: 900px;
+    width: 750px;
+    height: 500px;
     margin: 25px;
     border-radius: 10px;
     border: 1px solid #878787;
