@@ -25,6 +25,21 @@
       text-shadow: 1px 1px 1px gray;
       margin: 100px;
     }
+    .typewrite{
+            font-family: monospace;
+            position: relative;
+            text-shadow: 5px #2b2828;
+            margin: 0 auto;
+            border-right: 2px solid rgba(255,255,255,.75);
+            white-space: nowrap;
+            overflow: hidden;
+            color: azure !important;
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            cursor: default !important;
+        }
   </style>  
 </head>
 <body>
@@ -33,7 +48,9 @@
 <nav id="menu-bar"></nav>
 <!-- End -->
 <!-- Content -->
-<h1>yo, WSG .</h1>
+  <a class="typewrite" data-period="2000" data-type='[ "yo, WSG . "]'>
+      <span class="wrap"></span>
+    </a>
 <!-- Essentials -->
 <!-- <a id="buttontop"></a> -->
 <div class="footer-section"></div>
