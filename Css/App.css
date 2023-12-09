@@ -232,7 +232,11 @@ small{
     transition: 0.3s;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 #img-t:hover{
     
