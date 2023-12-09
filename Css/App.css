@@ -229,6 +229,9 @@ small{
     margin: 25px;
     border-radius: 10px;
     border: 1px solid #878787;
+    cursor: pointer;
+    transition: transform 0.25s ease;
+
     transition: 0.3s;
     display: block;
     margin-left: auto;
@@ -238,10 +241,12 @@ small{
     -moz-user-select: none;
     -ms-user-select: none;
 }
-#img-t:hover{
-    
+#img-t:hover{    
     opacity: 0.7;
+    transform: scale(1.2);
 }
+#img-t{}
+
 @media only screen and (max-width: 970px) {
     #img-t{
     width: 100%;
