@@ -238,6 +238,11 @@ small{
     filter: blur(1px);
     opacity: 0.7;
 }
+@media only screen and (max-width: 970px) {
+    #img-t{
+    width: 100%;
+    }
+}
 #p-heading{
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 22px;
