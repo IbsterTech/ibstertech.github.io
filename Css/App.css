@@ -243,7 +243,6 @@ small{
 }
 #img-t:hover{    
     opacity: 0.7;
-    transform: scale(1.1);
 }
 
 @media only screen and (max-width: 970px) {
@@ -252,7 +251,7 @@ small{
     height: 100%;
     }
     #img-t:hover{
-    transform: scale(1);
+    opacity: 1;
     }
 
 }
