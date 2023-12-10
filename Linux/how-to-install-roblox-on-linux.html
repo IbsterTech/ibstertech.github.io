@@ -30,20 +30,44 @@
       <a href="https://en.wikipedia.org/wiki/Roblox" target="_blank">Wikipedia</a>
 </p> 
 <header class="c-l">
-<p class="c-c">Installing Wine</p>
-<a href="/Linux/how-to-install-wine-on-linux.html" target="_blank"><button id="Button" class="dwnld-btn">Click Here!</button></a>
-<p class="c-c">Make Sure Your System Is UpTo Date:</p>
-<p id="c0" class="p-c">sudo apt update -y && sudo apt upgrade -y</p>
+<p class="c-c">To install wine go to the following tutorial below, once you've installed wine you may proceed with the tutorial.</p>
+<a href="/Linux/how-to-install-wine-on-linux.html" target="_blank"><button id="Button" class="dwnld-btn">Install Wine!</button></a>
+<p class="c-c dark">Package Installation</p>
+<p class="c-c">Enable 32-bit support:</p>
+<p id="c0" class="p-c">sudo dpkg --add-architecture i386</p>
 <button id="Button" onclick="copyToClipboard('c0')">Copy Code!</button>  
-<p class="c-c">Installation Of Essential Dependencies:</p>
-<p id="c1" class="p-c">sudo apt install -y git python3-pip python3-setuptools python3-wheel python3-dev pkg-config libcairo2-dev gtk-update-icon-cache desktop-file-utils xdg-utils libgirepository1.0-dev gir1.2-gtk-3.0 </p>
+<p class="c-c">Install Curl:</p>
+<p id="c1" class="p-c">sudo apt install -y curl</p>
 <button id="Button" onclick="copyToClipboard('c1')">Copy Code!</button>  
-<p id="c2" class="p-c">git clone https://gitlab.com/brinkervii/grapejuice.git /tmp/grapejuice</p>
+<p class="c-c">Download and install grapejuice keyring:</p>
+<p id="c2" class="p-c">curl https://gitlab.com/brinkervii/grapejuice/-/raw/master/ci_scripts/signing_keys/public_key.gpg | sudo tee /usr/share/keyrings/grapejuice-archive-keyring.gpg</p>
 <button id="Button" onclick="copyToClipboard('c2')">Copy Code!</button>  
-<p id="c3" class="p-c">cd /tmp/grapejuice</p>
+<p class="c-c">Add the grapejuice package repository:</p>
+<p id="c3" class="p-c">sudo tee /etc/apt/sources.list.d/grapejuice.list <<< 'deb [signed-by=/usr/share/keyrings/grapejuice-archive-keyring.gpg] https://brinkervii.gitlab.io/grapejuice/repositories/debian/ universal main'</p>
 <button id="Button" onclick="copyToClipboard('c3')">Copy Code!</button>  
-<p id="c4" class="p-c">python3 ./install.py</p>
+<p class="c-c">make sure your system is upto date:</p>
+<p id="c4" class="p-c">sudo apt update -y && sudo apt upgrade -y</p>
 <button id="Button" onclick="copyToClipboard('c4')">Copy Code!</button>  
+<p class="c-c">Finally, install the Grapejuice package:</p>
+<p id="c5" class="p-c">sudo apt install -y grapejuice</p>
+<button id="Button" onclick="copyToClipboard('c5')">Copy Code!</button>  
+<p class="c-c dark">Source Installation</p>
+<p class="c-c">make sure your system is up to date:</p>
+<p id="c6" class="p-c">sudo apt update -y && sudo apt upgrade -y</p>
+<button id="Button" onclick="copyToClipboard('c6')">Copy Code!</button>  
+<p class="c-c">Installation of essential dependencies:</p>
+<p id="c7" class="p-c">sudo apt install -y gettext git python3-pip python3-setuptools python3-wheel python3-dev virtualenv pkg-config mesa-utils libcairo2-dev gtk-update-icon-cache desktop-file-utils xdg-utils libgirepository1.0-dev gir1.2-gtk-3.0 gnutls-bin:i386</p>
+<button id="Button" onclick="copyToClipboard('c7')">Copy Code!</button>  
+<p class="c-c">Retrieve The Source Code:</p>
+<p id="c8" class="p-c">git clone --depth=1 https://gitlab.com/brinkervii/grapejuice.git /tmp/grapejuice</p>
+<button id="Button" onclick="copyToClipboard('c8')">Copy Code!</button>  
+<p class="c-c">Move into the grapejuice directory:</p>
+<p id="c9" class="p-c">cd /tmp/grapejuice</p>
+<button id="Button" onclick="copyToClipboard('c9')">Copy Code!</button>
+<p class="c-c">Finally Install Grapejuice:</p>
+<p id="c10" class="p-c">./install.py</p>
+<button id="Button" onclick="copyToClipboard('c10')">Copy Code!</button>
+
 </header>
 <div id="app"></div>
 <!-- Essentials -->
