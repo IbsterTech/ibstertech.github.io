@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -10,23 +12,23 @@ body{
   background:rgb(26 26 26) !important;
 }   
 #itemInput {
-  width: 100%;
+  width: 100%;  
   outline: none;
   border: none;
   color: #fff;
   background-color: #272727;
   font-size: 18px;
   padding: 12px 20px 12px 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   text-transform: capitalize;
-  box-shadow:  0 0 5px #0db0f1,
-  0 0 10px #12c2ee;
+  border: 1px solid rgb(0, 183, 255);
+  border-radius: 20px;
   transition:all 0.2s ease-out;
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Chakra Petch', sans-serif;
   font-weight: 900;
   letter-spacing: 3px;
-  /* border-radius: 0 0 10px 10px; */
 }
-
 #itemInput::placeholder{
   font-family: 'Varela Round', sans-serif;
   font-size: 16px;
@@ -125,6 +127,15 @@ border-radius: 10px !important;
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+.h-t{
+  font-size: 28px;
+  font-family: 'ADLaM Display', cursive;
+  text-align: center;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  }
 #m-f{
   padding-bottom: 0px !important;
 }
