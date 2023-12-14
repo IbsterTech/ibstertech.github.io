@@ -249,7 +249,7 @@ small{
     height: 100%;
     }
     #img-t:hover{
-    opacity: 1;
+    border: none;
     }
 
 }
