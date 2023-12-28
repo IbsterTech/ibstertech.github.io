@@ -8,7 +8,7 @@ head.appendChild(script);
 var temp = document.createElement('div');
 
 temp.innerHTML = '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />'
-               + '  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>' 
+               + '<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">' 
                + '<link rel="shortcut icon" type="image/x-icon" href="/Favicon/favicon.ico">'
                + '<link rel="icon" href="/Favicon/apple-icon-120x120.png" type="image/x-icon">'
                + '<link rel="apple-touch-icon" sizes="57x57" href="/Favicon/apple-icon-57x57.png">'
