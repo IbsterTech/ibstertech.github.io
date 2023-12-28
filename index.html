@@ -16,24 +16,34 @@
   <link rel="stylesheet" href="/Css/Styles.css">
   <script src="/Js/main-script.js"></script>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
     #m-f{
       padding-bottom: 500px !important;
     }
     body{
       background-color: #1e1e1e !important;
     }
-    .videos{
-      display: flex;
-      justify-content: center;
-      position: relative;
+    .header-title{
+      margin-left: 20px;
+      margin-top: 20px;
+      font-family: 'Anton', sans-serif;
     }
-   
-    .latestVideoEmbed{
-      width: 600px !important;
-      height: 340px !important;
-      margin: 30px;
-      
+    .more{
+      background-color: rgb(0, 195, 255);
+      color: #fff;
+      border-radius: 10px;
+      padding: 10px;
+      margin-left: 50%;
+    }
+    .more:hover{
+      color: #000;
 
+    }
+    .latestVideoEmbed{
+      width: 400px !important;
+      height: 240px !important;
+      margin: 30px;
+      border-radius: 20px;
     }
   </style>  
 </head>
@@ -43,13 +53,17 @@
 <nav id="menu-bar"></nav>
 <!-- End -->
 <!-- Content -->
-
+<h1 class="header-title">Recent </h1>
 <div class="videos">
   <iframe class="latestVideoEmbed" vnum='0' frameborder="0" allowfullscreen></iframe>                                           
   <iframe class="latestVideoEmbed" vnum='1' frameborder="0" allowfullscreen></iframe>
   <iframe class="latestVideoEmbed" vnum='2' frameborder="0" allowfullscreen></iframe>
   <iframe class="latestVideoEmbed" vnum='3' frameborder="0" allowfullscreen></iframe>
   <iframe class="latestVideoEmbed" vnum='4' frameborder="0" allowfullscreen></iframe>
+  <iframe class="latestVideoEmbed" vnum='5' frameborder="0" allowfullscreen></iframe>
+  <iframe class="latestVideoEmbed" vnum='6' frameborder="0" allowfullscreen></iframe>
+  <iframe class="latestVideoEmbed" vnum='7' frameborder="0" allowfullscreen></iframe>
+  <a href="#" class="more">More Videos</a>
 </div>
   
 <script>
