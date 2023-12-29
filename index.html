@@ -17,6 +17,7 @@
   <script src="/Js/main-script.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
     #m-f{
       padding-bottom: 500px !important;
     }
@@ -26,18 +27,16 @@
     .header-title{
       margin-left: 20px;
       margin-top: 20px;
-      font-family: 'Anton', sans-serif;
+      font-family: 'Diphylleia', serif;
+      font-weight: 900;
     }
-    .videos{
-       margin: auto;
 
-    }
     .more{
       background-color: rgb(0, 195, 255);
       color: #fff;
       border-radius: 10px;
       padding: 15px;
-      margin-left: 50%;
+      margin: 30px;
     }
     .more:hover{
       color: #000;
@@ -61,6 +60,7 @@
 <!-- End -->
 <!-- Content -->
 <h1 class="header-title">Recent </h1>
+<center>
 <div class="videos">
   <iframe class="latestVideoEmbed" vnum='0' frameborder="0" allowfullscreen></iframe>                                           
   <iframe class="latestVideoEmbed" vnum='1' frameborder="0" allowfullscreen></iframe>
@@ -71,9 +71,10 @@
   <iframe class="latestVideoEmbed" vnum='6' frameborder="0" allowfullscreen></iframe>
   <iframe class="latestVideoEmbed" vnum='7' frameborder="0" allowfullscreen></iframe>
   <iframe class="latestVideoEmbed" vnum='8' frameborder="0" allowfullscreen></iframe>
-
-  <a href="#" class="more">More Videos</a>
 </div>
+<a href="#" class="more">More Videos</a>
+
+</center>
 <script>
       const loadVideo = (iframe) => {
         const cid = "UCoROPepARvT7Tp4qX2vOyVg";
