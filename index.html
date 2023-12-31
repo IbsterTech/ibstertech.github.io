@@ -71,15 +71,15 @@
 <h1 class="header-title"><i class="fa-brands fa-youtube"></i> Recent Videos</h1>
 <center>
 <div class="videos">
-  <iframe class="latestVideoEmbed" vnum='0' frameborder="0" class="lazyload" loading="lazy" allowfullscreen></iframe>                                           
-  <iframe class="latestVideoEmbed" vnum='1' frameborder="0" class="lazyload" loading="lazy" allowfullscreen></iframe>
-  <iframe class="latestVideoEmbed" vnum='2' frameborder="0" class="lazyload" loading="lazy" allowfullscreen></iframe>
-  <iframe class="latestVideoEmbed" vnum='3' frameborder="0" class="lazyload" loading="lazy" allowfullscreen></iframe>                                           
-  <iframe class="latestVideoEmbed" vnum='4' frameborder="0" class="lazyload" loading="lazy" allowfullscreen></iframe>
-  <iframe class="latestVideoEmbed" vnum='5' frameborder="0" class="lazyload" loading="lazy" allowfullscreen></iframe>
-  <iframe class="latestVideoEmbed" vnum='6' frameborder="0" class="lazyload" loading="lazy" allowfullscreen></iframe>                                           
-  <iframe class="latestVideoEmbed" vnum='7' frameborder="0" class="lazyload" loading="lazy" allowfullscreen></iframe>
-  <iframe class="latestVideoEmbed" vnum='8' frameborder="0" class="lazyload" loading="lazy" allowfullscreen></iframe>
+  <iframe class="latestVideoEmbed" vnum='0' frameborder="0" loading="lazy" allowfullscreen></iframe>                                           
+  <iframe class="latestVideoEmbed" vnum='1' frameborder="0" loading="lazy" allowfullscreen></iframe>
+  <iframe class="latestVideoEmbed" vnum='2' frameborder="0" loading="lazy" allowfullscreen></iframe>
+  <iframe class="latestVideoEmbed" vnum='3' frameborder="0" loading="lazy" allowfullscreen></iframe>                                           
+  <iframe class="latestVideoEmbed" vnum='4' frameborder="0" loading="lazy" allowfullscreen></iframe>
+  <iframe class="latestVideoEmbed" vnum='5' frameborder="0" loading="lazy" allowfullscreen></iframe>
+  <iframe class="latestVideoEmbed" vnum='6' frameborder="0" loading="lazy" allowfullscreen></iframe>                                           
+  <iframe class="latestVideoEmbed" vnum='7' frameborder="0" loading="lazy" allowfullscreen></iframe>
+  <iframe class="latestVideoEmbed" vnum='8' frameborder="0" loading="lazy" allowfullscreen></iframe>
 
 </div>
 </center>
@@ -107,23 +107,6 @@
     for (let i = 0, len = iframes.length; i < len; i++) {
         loadVideo(iframes[i]);
     }
-</script>
-<script>
-  if ('loading' in HTMLIFrameElement.prototype) {
-    const iframes = document.querySelectorAll('iframe[loading="lazy"]');
-
-    iframes.forEach(iframe => {
-      iframe.src = iframe.dataset.src;
-    });
-
-  } else {
-    // Dynamically import the LazySizes library
-    const script = document.createElement('script');
-    script.src =
-      'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js';
-    document.body.appendChild(script);
-  }
-
 </script>
 <!-- Essentials -->
 <a id="buttontop"></a>
