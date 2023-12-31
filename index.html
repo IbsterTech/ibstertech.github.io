@@ -41,9 +41,13 @@
       margin-top: 20px;
       right: 1.5%;
       position: absolute;
+      transition:all 0.4s ease-out;
+      font-weight: 900;
     }
     .more:hover{
-      color: #202020;
+      color: #000;
+      transition:all 0.4s ease-out;
+
 
     }
     .latestVideoEmbed{
@@ -65,7 +69,7 @@
 <!-- End -->
 <!-- Content -->
 
-<h1 class="header-title">Recent Videos</h1>
+<h1 class="header-title"><i class="fa-brands fa-youtube"></i> Recent Videos </h1>
 <center>
 <div class="videos">
   <iframe class="latestVideoEmbed" vnum='0' frameborder="0" loading="lazy" allowfullscreen></iframe>                                           
@@ -76,6 +80,8 @@
   <iframe class="latestVideoEmbed" vnum='5' frameborder="0" loading="lazy" allowfullscreen></iframe>
   <iframe class="latestVideoEmbed" vnum='6' frameborder="0" loading="lazy" allowfullscreen></iframe>                                           
   <iframe class="latestVideoEmbed" vnum='7' frameborder="0" loading="lazy" allowfullscreen></iframe>
+  <iframe class="latestVideoEmbed" vnum='8' frameborder="0" loading="lazy" allowfullscreen></iframe>
+
 </div>
 </center>
 <a href="#" class="more">More Videos!</a>
