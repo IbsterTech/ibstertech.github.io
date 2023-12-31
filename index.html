@@ -36,6 +36,8 @@
       color: #fff;
       border-radius: 10px;
       padding: 15px;
+      padding-left: 30px;
+      padding-right: 30px;
       margin-top: 30px;
       position: absolute;
       margin-left: 0;
@@ -63,17 +65,18 @@
 <nav id="menu-bar"></nav>
 <!-- End -->
 <!-- Content -->
-<h1 class="header-title">Recent</h1>
+
+<h1 class="header-title">Recent Videos</h1>
 <center>
 <div class="videos">
-  <iframe class="latestVideoEmbed" vnum='0' frameborder="0" allowfullscreen></iframe>                                           
-  <iframe class="latestVideoEmbed" vnum='1' frameborder="0" allowfullscreen></iframe>
-  <iframe class="latestVideoEmbed" vnum='2' frameborder="0" allowfullscreen></iframe>
- 
+  <iframe class="latestVideoEmbed" vnum='0' frameborder="0" loading="lazy" allowfullscreen></iframe>                                           
+  <iframe class="latestVideoEmbed" vnum='1' frameborder="0" loading="lazy" allowfullscreen></iframe>
+  <iframe class="latestVideoEmbed" vnum='2' frameborder="0" loading="lazy" allowfullscreen></iframe>
+  
 </div>
-<a href="#" class="more">More Videos</a>
-
+<a href="#" class="more">More Videos!</a>
 </center>
+
 <script>
       const loadVideo = (iframe) => {
         const cid = "UCoROPepARvT7Tp4qX2vOyVg";
@@ -97,7 +100,6 @@
         loadVideo(iframes[i]);
     }
 </script>
-</div>
 <!-- Essentials -->
 <a id="buttontop"></a>
 <div class="footer-section"></div>
