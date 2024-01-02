@@ -15,6 +15,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <link rel="stylesheet" href="/Css/Styles.css">
   <script src="/Js/main-script.js"></script>
+  <script src="/Js/video.js" defer></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
@@ -50,17 +51,18 @@
     }
     .more:hover{
       color: #000;
-      transition:all 0.4s ease-out;
+      transition:all 0.2s ease-out;
     }
     .latestVideoEmbed{
-      width: 400px !important;
-      height: 240px !important;
+      width: 400px;
+      height: 240px;
       margin: 30px;
+      border: 1px solid #5e5e5e;
       border-radius: 20px;
       user-select: none;
       -moz-user-select: none;
       -ms-user-select: none;
-      transition:all 0.9s ease-out;
+      transition:all 0.2s ease-out;
     }
   </style>  
 </head>
@@ -85,31 +87,7 @@
 
 </div>
 </center>
-<a href="#" class="more">More Videos!</a>
-
-<script>
-      const loadVideo = (iframe) => {
-        const cid = "UCoROPepARvT7Tp4qX2vOyVg";
-        const channelURL = encodeURIComponent(`https://www.youtube.com/feeds/videos.xml?channel_id=${cid}`)
-        const reqURL = `https://api.rss2json.com/v1/api.json?rss_url=${channelURL}`;
-   
-        fetch(reqURL)
-            .then(response => response.json())
-            .then(result => {
-              console.log(result)
-                const videoNumber = iframe.getAttribute('vnum')
-                const link = result.items[videoNumber].link;
-                const id = link.substr(link.indexOf("=") + 1);
-                iframe.setAttribute("src", `https://youtube.com/embed/${id}?controls=0&autoplay=1`);
-            })
-            .catch(error => console.log('error', error));
-    }
-    
-    const iframes = document.getElementsByClassName('latestVideoEmbed');
-    for (let i = 0, len = iframes.length; i < len; i++) {
-        loadVideo(iframes[i]);
-    }
-</script>
+<a href="https://www.youtube.com/@IbsterTech/videos" target="_blank" class="more">More Videos!</a>
 <!-- Essentials -->
 <a id="buttontop"></a>
 <div class="footer-section"></div>
