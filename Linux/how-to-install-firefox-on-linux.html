@@ -41,12 +41,15 @@ Mozilla Firefox, or simply Firefox, is a free and open-source web browser develo
 <p id="c4" class="p-c">sudo apt install firefox</p>
 <button id="Button" onclick="copyToClipboard('c4')">Copy Code!</button>  
 <p class="c-c dark">Method 2</p>
-<p class="c-c">Installing Snap: </p>
+<p class="c-c">Make Sure Your System Is UpTo Date: </p>
+<p id="c45" class="p-c">sudo apt update -y && sudo apt upgrade -y</p>
+<button id="Button" onclick="copyToClipboard('c45')">Copy Code!</button>
+<p class="c-c">Installation of essential dependencies: </p>
 <p id="c5" class="p-c">sudo apt install snapd && sudo snap install core </p>
 <button id="Button" onclick="copyToClipboard('c5')">Copy Code!</button>
+<p class="c-c">Refreshing Snapd Installation:</p>
+<p id="c5" class="p-c">sudo systemctl restart snapd</p>
 <p class="c-c">Installing Snap Documentation: <a href="https://snapcraft.io/docs/installing-snapd" target="_blank">Snap Documentation</a>.</p>
-<p class="c-c">Setting Up Snap: </p>
-<p id="c5" class="p-c">sudo systemctl restart snapd && sudo systemctl enable --now snapd apparmor</p>
 <h1 class="c-c">Installing Firefox Using Snap: </h1>  
 <p id="c7" class="p-c">sudo snap install firefox</p>
 <button id="Button" onclick="copyToClipboard('c7')">Copy Code!</button>  
