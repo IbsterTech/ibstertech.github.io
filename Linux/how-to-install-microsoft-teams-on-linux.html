@@ -26,6 +26,27 @@
 <p class="a-p">
     Microsoft Teams is a proprietary business communication platform developed by Microsoft, as part of the Microsoft 365 family of products. <br> Teams primarily competes with the similar service Slack, offering workspace chat and videoconferencing, file storage and application integration.  <a href="https://en.wikipedia.org/wiki/Microsoft_Teams" class="a-1" target="_blank">Wikipedia</a>
 </p>
+<header class="c-l">
+<p class="c-c">Make Sure Your System Is UpTo Date: </p>
+<p id="c1" class="p-c">sudo apt update -y && sudo apt upgrade -y</p>
+<button id="Button" onclick="copyToClipboard('c1')">Copy Code!</button>  
+<p class="c-c">Adding the official Flatpak PPA:</p>
+<p id="c2" class="p-c">sudo add-apt-repository ppa:flatpak/stable</p>
+<button id="Button" onclick="copyToClipboard('c2')">Copy Code!</button>
+<p class="c-c">Installation of flatpak:</p>
+<p id="c3" class="p-c">sudo apt install flatpak</p>
+<button id="Button" onclick="copyToClipboard('c3')">Copy Code!</button>  
+<p class="c-c">Install the Software Flatpak plugin:</p>
+<p id="c4" class="p-c">sudo apt install gnome-software-plugin-flatpak</p>
+<button id="Button" onclick="copyToClipboard('c4')">Copy Code!</button>  
+<p class="c-c">Add the Flathub repository: </p>
+<p id="c5" class="p-c">flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo</p>
+<button id="Button" onclick="copyToClipboard('c5')">Copy Code!</button>  
+<p class="c-c">Installing Microsoft Teams:</p>
+<p id="c6" class="p-c">flatpak install flathub com.github.IsmaelMartinez.teams_for_linux</p>
+<button id="Button" onclick="copyToClipboard('c6')">Copy Code!</button>  
+
+</header>
 <div id="app"></div>
 <!-- Essentials -->
 <a id="buttontop"></a>
