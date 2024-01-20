@@ -23,10 +23,38 @@
 <iframe class="youtube-video" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p class="a-i">About Steam</p>
 <p class="a-p">Steam is a video game digital distribution service and storefront developed by Valve Corporation. <br>
-     It was launched as a software client in September 2003 to provide game updates automatically for Valve's games, and expanded to distributing third-party titles in late 2005.<a href="https://en.wikipedia.org/wiki/Steam_(service)"> Wikipedia</a></p>
+ It was launched as a software client in September 2003 to provide game updates automatically for Valve's games, and expanded to distributing third-party titles in late 2005.<a href="https://en.wikipedia.org/wiki/Steam_(service)"> Wikipedia</a></p>
 <header class="c-l">
+<p class="c-c dark">Method 1</p>
 <p class="c-c">Make Sure Your System Is UpTo Date: </p>
 <p id="c1" class="p-c">sudo apt update -y && sudo apt upgrade -y</p>
+<button id="Button" onclick="copyToClipboard('c1')">Copy Code!</button>  
+<p class="c-c">Adding the official Flatpak PPA:</p>
+<p id="c2" class="p-c">sudo add-apt-repository ppa:flatpak/stable</p>
+<button id="Button" onclick="copyToClipboard('c2')">Copy Code!</button>
+<p class="c-c">Installation of flatpak:</p>
+<p id="c3" class="p-c">sudo apt install flatpak</p>
+<button id="Button" onclick="copyToClipboard('c3')">Copy Code!</button>  
+<p class="c-c">Install the Software Flatpak plugin:</p>
+<p id="c4" class="p-c">sudo apt install gnome-software-plugin-flatpak</p>
+<button id="Button" onclick="copyToClipboard('c4')">Copy Code!</button>  
+<p class="c-c">Add the Flathub repository: </p>
+<p id="c5" class="p-c">flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo</p>
+<button id="Button" onclick="copyToClipboard('c5')">Copy Code!</button> 
+<p class="c-c">Flathub Installation Documentaion: <a href="https://flathub.org/setup" target="_blank">https://flathub.org/setup</a> </p> 
+<p class="c-c">Installing Steam:</p>
+<p id="c6" class="p-c">flatpak install flathub com.valvesoftware.Steam</p>
+<button id="Button" onclick="copyToClipboard('c6')">Copy Code!</button>  
+<p class="c-c dark">Method 2</p>
+<p class="c-c">Make Sure Your System Is UpTo Date:</p>
+<p id="c01" class="p-c">sudo apt update -y && sudo apt upgrade -y</p>
+<button id="Button" onclick="copyToClipboard('c01')">Copy Code!</button>  
+<h1 class="c-c">Installing Gdebi Package Manager: </h1>
+<p id="c02" class="p-c">sudo apt install gdebi && sudo apt install gdebi-core</p>
+<button id="Button" onclick="copyToClipboard('c2')">Copy Code!</button>  
+<p class="c-c">Download Steam:</p>
+<a href="https://store.steampowered.com/about/" target="_blank"><button id="Button" class="dwnld-btn">Download </button></a>
+
 </header>
 <div id="app"></div>
 <!-- Essentials -->
