@@ -21,7 +21,7 @@ body{
   padding: 12px 20px 12px 20px;
   margin-top: 40px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: lowercase;
   border: 1px solid rgb(0, 183, 255);
   border-radius: 20px;
   transition:all 0.2s ease-out;
