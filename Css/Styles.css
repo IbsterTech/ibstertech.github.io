@@ -139,7 +139,7 @@ background-color: #1deff7;
   box-shadow:  0 0 5px #0db0f1,
   0 0 10px #12c2ee;
   border-bottom: none;
-  font-family: 'Acme', sans-serif !important;
+  font-family: 'Protest Guerrilla', sans-serif; 
 
 }
 #menu-bar .wrapper{
@@ -189,7 +189,7 @@ background-color: #1deff7;
  margin: 10px !important;
 }
 .nav-links li a{
-  font-family: 'Acme', sans-serif;
+  font-family: 'Protest Strike', sans-serif;
   color: white;
   font-size: 19px;
   text-decoration: none !important;
@@ -255,6 +255,9 @@ background-color: #1deff7;
 }
 
 /* Sub-Menus */
+.row-menu a{
+  font-family: 'Acme', sans-serif !important;
+}
 .row-menu a:hover{
 background-color: rgb(46, 46, 46);
   transition:all 0.3s ease-out;
