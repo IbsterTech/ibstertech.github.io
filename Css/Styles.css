@@ -135,6 +135,11 @@ background-color: #1deff7;
   transition-duration: .2s, 1s;
   transition-timing-function: linear, ease-in;
   transition-delay: 0s, 1s;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name:  slideInFromTop;
   border-radius: 0px 0px 0px 0px;
   box-shadow:  0 0 5px #0db0f1,
   0 0 10px #12c2ee;
@@ -533,21 +538,13 @@ nav input{
 
 
 /* Footer */
-@keyframes slideInFromLeft {
+@keyframes slideInFromBottom {
   0% {
-   transform: translateX(-100%);
+ transform: translateY(100%);
   }
   100% {
-   transform: translateX(0);
+ transform: translateY(0%);
   }
-}
-@keyframes slideInFromRight {
-   0% {
-    transform: translateX(100%);
-   }
-   100% {
-    transform: translateX(0);
-   }
 }
 @keyframes rainbow-text-simple-animation-rev {
    0% {
@@ -600,6 +597,11 @@ footer {
   -webkit-user-select: none;
   -ms-user-select: none;
   color: #fff;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name:  slideInFromBottom;
 }
 .f-b p{
   margin: 0rem !important;
@@ -613,10 +615,11 @@ p.copyright {
  text-align: center;
  font-family: 'Ubuntu', sans-serif;
  animation-duration: 1s;
- animation-timing-function: ease-in-out;
- animation-delay: 0s;
- animation-iteration-count: 1;
- animation-name:  slideInFromLeft;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name:  slideInFromBottom;
+
 }
 .i-u{
  background-color: #11fff3 !important;
@@ -663,11 +666,7 @@ p.copyright {
  margin-left: auto;
  margin-right: auto;
  text-align: center;
- animation-duration: 1s;  
- animation-timing-function: ease-in-out;
- animation-delay: 0s;
- animation-iteration-count: 1;
- animation-name:  slideInFromRight;
+
 }
 .f-c a{
   font-size: 14px; 
