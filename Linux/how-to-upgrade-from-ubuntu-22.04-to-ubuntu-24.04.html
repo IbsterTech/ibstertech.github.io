@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How To Install Wine On Linux - IbsterTech</title>
+  <meta name="description" content="Learn how to install wine on linux like a pro!" />
+  <meta name="keywords" content="How To Install Wine On Linux, Wine, Wine For Linux, Wine On Linux, how to install wine on linux?, how to install wine on linux">
+  <meta name="author" content="IbsterTech, ibstertech, Ibster Tech, ibster tech, Ibster, ibster"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="/Js/main-script.js"></script>
+  <script src="/Js/app.js"></script>
+  <link rel="stylesheet" href="/Css/Styles.css">
+  <link rel="stylesheet" href="/Css/App.css">
+</head>
+<body>
+<!-- Essentials -->
+<div class="loader-container"></div>
+<nav id="menu-bar"></nav>
+<!-- End -->
+<h1 class="t-h">How To Update From Ubuntu 22.04 to ubuntu 24.04 - IbsterTech</h1>
+<p class="c-c c-l"><b>Note:</b>  Make sure you watch the video below, to ensure you get your desired  without any problems!</p> 
+<iframe class="youtube-video" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p class="a-i">About Wine</p>
+<p class="a-p">Wine is a free and open-source compatibility layer that aims to allow application software and computer games developed for Microsoft Windows to run on Unix-like operating systems. <a href="https://en.wikipedia.org/wiki/Wine_(software)"> Wikipedia</a></p>
+<header class="c-l">
+<p class="c-c">Make Sure Your System Is UpTo Date: </p>
+<p id="c1" class="p-c">sudo apt update -y && sudo apt upgrade -y</p>
+<button id="Button" onclick="copyToClipboard('c1')">Copy Code!</button>
+<p class="c-c">If your system is 64 bit, enable 32 bit architecture:</p>
+<p id="c2" class="p-c">sudo dpkg --add-architecture i386 </p>
+<button id="Button" onclick="copyToClipboard('c2')">Copy Code!</button>
+<p class="c-c">Download and add the repository key:</p>
+<p id="c3" class="p-c">sudo mkdir -pm755 /etc/apt/keyrings && sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key</p>
+<button id="Button" onclick="copyToClipboard('c3')">Copy Code!</button>
+<p class="c-c">Ubuntu 22.04 (Jammy Jellyfish) & Linux Mint 21.x</p>
+<p id="c41" class="p-c">sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources</p>
+<button id="Button" onclick="copyToClipboard('c41')">Copy Code!</button>
+<p class="c-c">Installing wine Documentation: <a href="https://wiki.winehq.org/Download" target="_blank">https://wiki.winehq.org/Download</a></p>
+<p class="c-c">Update the package information:</p>
+<p id="c5" class="p-c">sudo apt update -y && sudo apt upgrade -y</p>
+<button id="Button" onclick="copyToClipboard('c5')">Copy Code!</button>
+<p class="c-c">Install one of the following branches.</p>
+<p class="h-1">Stable branch</p>
+<p id="c6" class="p-c">sudo apt install --install-recommends winehq-stable</p>
+<button id="Button" onclick="copyToClipboard('c6')">Copy Code!</button>
+<p class="h-1">Development branch</p>
+<p id="c7" class="p-c">sudo apt install --install-recommends winehq-devel</p>
+<button id="Button" onclick="copyToClipboard('c7')">Copy Code!</button>
+<p class="h-1">Staging branch	</p>
+<p id="c8" class="p-c">sudo apt install --install-recommends winehq-staging</p>
+<button id="Button" onclick="copyToClipboard('c8')">Copy Code!</button>
+<p class="c-c">Setting Up Wine</p>
+<p id="c9" class="p-c">winecfg</p>
+<button id="Button" onclick="copyToClipboard('c9')">Copy Code!</button>
+</header>
+<div id="app"></div>
+<!-- Essentials -->
+<a id="buttontop"></a>
+<div class="footer-section"></div>
+<!-- End -->
+</body>
+</html>
