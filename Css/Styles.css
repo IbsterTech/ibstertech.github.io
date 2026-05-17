@@ -586,7 +586,7 @@ nav input{
 footer {
   width: 100%;
   background-color: #111111 !important;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
   clear: both;
   z-index: 99;
   position: relative;
