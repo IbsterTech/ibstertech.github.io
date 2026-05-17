@@ -585,6 +585,7 @@ nav input{
   padding: 20px;
 }
 footer {
+  margin-top: auto !important;
   width: 100%;
   background-color: #111111 !important;
   /* Removed absolute positioning and 100% height rules here */
