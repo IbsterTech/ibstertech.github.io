@@ -412,7 +412,3 @@ iframe[sandbox]:not([sandbox=""]) {
     margin: 0 !important;
     padding: 0 !important;
 }
-/* Footer Spacing */
-#m-f{
-    padding-bottom: 300px !important;
-}
