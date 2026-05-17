@@ -581,7 +581,7 @@ nav input{
 /* Footer Spacing */
 #m-f{
   text-align: center;
-  padding-bottom: 800px;
+  padding: 20px;
 }
 footer {
   height: 20px;
