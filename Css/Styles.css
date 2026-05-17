@@ -10,7 +10,9 @@
 
 body{
   display: flex;
-  min-height: 100vh;
+  flex-direction: column;
+  min-height: 100vh; /* Forces body to be at least the height of the screen */
+  margin: 0;
   background-color: var(--background) !important;
   color: #fff !important;
   text-decoration: none !important;
@@ -584,19 +586,10 @@ nav input{
   padding: 20px;
 }
 footer {
-  height: 20px;
   width: 100%;
   background-color: #111111 !important;
-  padding-bottom: 70px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  clear: both;
+  /* Removed absolute positioning and 100% height rules here */
   z-index: 99;
-  position: relative;
-  margin: 0 auto;
-  max-height: 100%;
-  min-height: 100%;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -606,26 +599,26 @@ footer {
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
   animation-iteration-count: 1;
-  animation-name:  slideInFromBottom;
+  animation-name: slideInFromBottom;
+}
+
+p.copyright {
+  color: floralwhite !important;
+  line-height: 40px;
+  font-size: 13px;
+  /* Removed invalid 'float: 300px;' here */
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInFromBottom;
 }
 .f-b p{
   margin: 0rem !important;
 }
 
-p.copyright {
- color: floralwhite !important;
- line-height: 40px;
- font-size: 13px;
- float: 300px;
- text-align: center;
- font-family: 'Ubuntu', sans-serif;
- animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-name:  slideInFromBottom;
-
-}
 .i-u{
  background-color: #11fff3 !important;
  text-shadow: 1px 1px 1px rgb(0, 0, 0) !important;
